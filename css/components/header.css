@@ -18,7 +18,7 @@
     justify-content: space-between;
     width: 403px;
     height: 17px;
-    margin-left: 927px;
+    margin-left: 910px;
     margin-top: 46px;
     margin-right: 160px;
 }
@@ -117,7 +117,7 @@
 
 .header__social-links:hover{
     color: var(--yellow);
-    cursor: pointer
+    cursor: pointer;
     transition: color .3s;
 }
 
@@ -127,8 +127,13 @@
     margin-left: 160px;
     background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
     color: var(--white);
+    padding:16px 48px 16px 48px;
     text-align: center;
-    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
     border-radius: 60px;
 }
 
@@ -148,7 +153,9 @@
 }
 
 .header__media{
-    display: flex;
-    flex: 1 1 auto;
-    justify-content: right ;
+   display: flex;
+   flex: 1 1 auto;
+   justify-content: right;
+   column-gap: 20px;
+   transform: translate(0%,30%);
 }
