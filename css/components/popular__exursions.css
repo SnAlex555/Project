@@ -1,0 +1,131 @@
+.section__links{
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.section-title{
+    margin-left: 160px;
+    color: var(--section-title-color);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+}
+
+.watch__all{
+    margin-left: 719px;
+    margin-right: 160px;
+    color: var(--black);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: underline;
+    }
+
+.wrapper {
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+    }
+        
+.popular-exursions__wrapper{
+    margin-top: 211px;
+    margin-left: 16px;
+    margin-right:16px;
+    margin-bottom: 42px;
+}
+
+.popular-exursions__block1{
+    width: 360px;
+    height: 497px;
+    left: 160px;
+    background-color: red;
+    }
+.popular-exursions__block2{
+    width: 360px;
+    height: 497px;
+    background-color: red;
+    }
+.popular-exursions__block3{
+    width: 360px;
+    height: 497px;
+    background-color: red;
+    }
+.popular-exursions__block4{
+    width: 360px;
+    height: 497px;
+    background-image: url('../images/slides/monastery.jpg') ;
+    }
+
+.slide__type{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}   
+
+.slide__title{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--slide-title-color);
+
+}
+.slide__description  {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+ }
+
+ .slide__duration-time{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+ }
+
+ .slide__price{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+ }
+
+ .button__link-exursions{
+    width: 160px;
+    height: 40px;
+    border-radius: 40px;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    color:var(--button-link-color)
+ }
+
+ .button__link-exursions:hover{
+    color: var(--yellow);
+    cursor: pointer
+}
+
+ .link__excursuions{
+    text-decoration: none;
+}
+
+.link__excursuions:hover{
+    text-decoration: underline;
+    color:var(--yellow);
+    transition: color .3s;
+}
