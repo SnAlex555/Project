@@ -40,11 +40,21 @@
 
 
         <div class="header__social-links">
-            <a href="https://www.vk.com" target="_blank"><img class="header__vk" src="./css/images/icons/vk.svg"></a>
-            <a href="https://www.instagram.com" target="_blank"><img class="header__insta"
-                    src="./css/images/icons/insta.svg"></a>
-            <a href="https://www.facebook.com" target="_blank"><img class="header__facebook"
-                    src="./css/images/icons/facebook.svg"></a>
+            <a href="https://www.vk.com" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon">
+                    <use xlink:href="./css/images/icons/header-icons/sprite.svg#vk"></use>
+                  </svg>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon">
+                    <use xlink:href="./css/images/icons/header-icons/sprite.svg#insta"></use>
+                  </svg>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon">
+                    <use xlink:href="./css/images/icons/header-icons/sprite.svg#facebook"></use>
+                  </svg>
+            </a>
         </div>
 
 
@@ -56,29 +66,35 @@
 
 
         <div class="header__media">
-            <video width="360" height="227" controls poster="./css/images/header/Video-boat.jpg">
+            <video width="360" height="227" controls poster="./css/images/header/Video-boat.png">
                 <source src="./css/video/Алтай.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
             </video>
-            <img class="header__promo" src="./css/images/header/header-road-in-forest.jpg" alt="header__promo">
+            <img class="header__promo" src="./css/images/header/header-road-in-forest.png" alt="header__promo">
         </div>
     </header>
 
 
     <main class="main">
 
-        <section class="popular__exursions">
-            <div class="section__links">
-                <a class="section-title" href="" target="_blank">Популярные экскурсии</a>
+    <section class="popular__exursions">
+        <div class="section__links">
+                <h2 class="main__section-title">Популярные экскурсии</h2>
                 <a class="watch__all" href="" target="_blank">Смотреть все</a>
             </div>
 
             <div class="swiper swiper1">
+                <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
+                    <!-- Slides -->
                     <div class="swiper-slide">
-                        <div class="popular-exursions__block1">
-                            <div class="popular-exursions__wrapper">
-                                <span class="popular-exursions-type slide__type">Автобусный тур</span>
-                                <h3 class="popular-exursions-title slide__title">Обзорная по Сочи (из Адлера)</h3>
+                        <div class="popular-exursion-section__box1">
+                            <div class="popular-exursions-section__content">
+                                <p class="popular-exursions-type slide__type">
+                                    Автобусный тур
+                                </p>
+                                <h3 class="popular-exursions-title slide__title">
+                                    Обзорная по Сочи (из Адлера)
+                                </h3>
                                 <svg class="popular-excursion-duration__icon slide__duration-icon" width="12"
                                     height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -88,8 +104,9 @@
                                         d="M7.59001 8.1225L5.73376 6.26625C5.699 6.23121 5.6715 6.18965 5.65284 6.14397C5.63418 6.09828 5.62472 6.04935 5.62501 6V3H6.37501V5.84625L8.12251 7.59L7.59001 8.1225Z"
                                         fill="white" />
                                 </svg>
-                                <span class="popular-excursion-duration__time slide__duration-time">6 часов</span>
-
+                                <p class="popular-excursion-price slide__price">
+                                    6 часов
+                                </p>
                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -132,16 +149,15 @@
                                         stroke="white" stroke-width="0.6" stroke-miterlimit="10" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <span class="popular-excursion-price slide__price">618 Р</span>
-
+                                <p class="popular-excursion-price slide__price">618 Р</p>
                                 <p class="popular-exursions-description slide__description">
-                                    Приглашаем вас на экскурсию
+                                Приглашаем вас на экскурсию
                                     "Обзорная по Большому Сочи":
-                                    Экскурсия начнется с подъёма на гору Большой <br> Ахун - это высшая точка (665 метров) на <br>
-                                    побережьи Сочи. На вершине горы Большой Ахун <br> есть смотровая башня, построенная в
-                                    1935-36 годах <br>по проекту архитектора С. И. Воробьева...
+                                    Экскурсия начнется с подъёма на гору Большой <br> Ахун - это высшая точка (665 метров) на 
+                                    побережьи <br> Сочи. На вершине горы Большой Ахун есть смотровая <br>башня, построенная в
+                                    1935-36 годах по проекту <br> архитектора С. И. Воробьева...
                                 </p>
-                                <a href="" class="link__excursuions">
+                                <a href="" target="_blank" class="link__excursuions">
                                     <button class="button__link-exursions">
                                         Подробнее
                                     </button>
@@ -149,12 +165,15 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="swiper-slide">
-                        <div class="popular-exursions__block2">
-                            <div class="popular-exursions__wrapper">
-                                <span class="popular-exursions-type slide__type">Конный тур тур</span>
-                                <h3 class="popular-exursions-title slide__title">Конные прогулки</h3>
+                        <div class="popular-exursion-section__box2">
+                            <div class="popular-exursions-section__content">
+                                <p class="popular-exursions-type slide__type">
+                                    Квадротур 
+                                </p>
+                                <h3 class="popular-exursions-title slide__title">
+                                    Пасть дракона
+                                </h3>
                                 <svg class="popular-excursion-duration__icon slide__duration-icon" width="12"
                                     height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -164,8 +183,9 @@
                                         d="M7.59001 8.1225L5.73376 6.26625C5.699 6.23121 5.6715 6.18965 5.65284 6.14397C5.63418 6.09828 5.62472 6.04935 5.62501 6V3H6.37501V5.84625L8.12251 7.59L7.59001 8.1225Z"
                                         fill="white" />
                                 </svg>
-                                <span class="popular-excursion-duration__time slide__duration-time">1,5 часа</span>
-
+                                <p class="popular-excursion-price slide__price">
+                                    1,5 часа
+                                </p>
                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -208,8 +228,7 @@
                                         stroke="white" stroke-width="0.6" stroke-miterlimit="10" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <span class="popular-excursion-price slide__price">1 809 Р </span>
-
+                                <p class="popular-excursion-price slide__price">1 809 Р </p>
                                 <p class="popular-exursions-description slide__description">
                                     Конные прогулки проходят в Лазурной долине. С <br> долины открывается красивый вид на
                                     море,
@@ -217,7 +236,7 @@
                                     инструктора. <br>
                                     Катание на лошадях или иппотерапия очень <br> полезна для детей и взрослых...
                                 </p>
-                                <a href="" class="link__excursuions">
+                                <a href="" target="_blank" class="link__excursuions">
                                     <button class="button__link-exursions">
                                         Подробнее
                                     </button>
@@ -226,10 +245,14 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="popular-exursions__block3">
-                            <div class="popular-exursions__wrapper">
-                                <span class="popular-exursions-type slide__type">Квадротур</span>
-                                <h3 class="popular-exursions-title slide__title">Пасть дракона</h3>
+                        <div class="popular-exursion-section__box3">
+                            <div class="popular-exursions-section__content">
+                                <p class="popular-exursions-type slide__type">
+                                    Квадротур
+                                </p>
+                                <h3 class="popular-exursions-title slide__title">
+                                    Пасть дракона
+                                </h3>
                                 <svg class="popular-excursion-duration__icon slide__duration-icon" width="12"
                                     height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -239,8 +262,9 @@
                                         d="M7.59001 8.1225L5.73376 6.26625C5.699 6.23121 5.6715 6.18965 5.65284 6.14397C5.63418 6.09828 5.62472 6.04935 5.62501 6V3H6.37501V5.84625L8.12251 7.59L7.59001 8.1225Z"
                                         fill="white" />
                                 </svg>
-                                <span class="popular-excursion-duration__time slide__duration-time">2,5 часа</span>
-
+                                <p class="popular-excursion-price slide__price">
+                                    2,5 часа
+                                </p>
                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -283,13 +307,13 @@
                                         stroke="white" stroke-width="0.6" stroke-miterlimit="10" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <span class="popular-excursion-price slide__price">3 515 Р </span>
+                                <p class="popular-excursion-price slide__price">3 515 Р</p>
                                 <p class="popular-exursions-description slide__description">
                                     Маршрут на Квадроциклах проходит по горной <br> реке Мзымта вдоль белых скал и самшитовый
                                     лес <br> к водопаду Глубокий Яр или "Пасть Дракона" <br>(экскурсионное название).<br>
-                                    Высота водопада 41,5 метр - это один из самых <br> высоких водопадов Большого Сочи...
+                                    Высота водопада 41,5 метр - это один из самых <br> высоких водопадов Большого Сочи
                                 </p>
-                                <a href="" class="link__excursuions">
+                                <a href="" target="_blank" class="link__excursuions">
                                     <button class="button__link-exursions">
                                         Подробнее
                                     </button>
@@ -298,10 +322,14 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="popular-exursions__block4">
-                            <div class="popular-exursions__wrapper">
-                                <span class="popular-exursions-type slide__type">Автобусный тур</span>
-                                <h3 class="popular-exursions-title slide__title">Женский монастырь</h3>
+                        <div class="popular-exursion-section__box4">
+                            <div class="popular-exursions-section__content">
+                                <p class="popular-exursions-type slide__type">
+                                    Автобусный тур
+                                </p>
+                                <h3 class="popular-exursions-title slide__title">
+                                    Женский монастырь
+                                </h3>
                                 <svg class="popular-excursion-duration__icon slide__duration-icon" width="12"
                                     height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -311,8 +339,9 @@
                                         d="M7.59001 8.1225L5.73376 6.26625C5.699 6.23121 5.6715 6.18965 5.65284 6.14397C5.63418 6.09828 5.62472 6.04935 5.62501 6V3H6.37501V5.84625L8.12251 7.59L7.59001 8.1225Z"
                                         fill="white" />
                                 </svg>
-                                <span class="popular-excursion-duration__time slide__duration-time">4 часа</span>
-
+                                <p class="popular-excursion-price slide__price">
+                                    4 часа
+                                </p>
                                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -355,7 +384,8 @@
                                         stroke="white" stroke-width="0.6" stroke-miterlimit="10" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
-                                <span class="popular-excursion-price slide__price">618 Р </span>
+                                <p class="popular-excursion-price slide__price">618 Р</p>
+                                <p class="popular-exursions-description slide__description">
                                 <p class="popular-exursions-description slide__description">
                                     Троице - Георгиевский женский монастырь расположен в селе Лесное в живописном месте,
                                     в котором гармонично сочетаются красота природы и красота архитектуры сотворенная
@@ -363,7 +393,7 @@
                                     Это удивительное место расположено совсем недалеко от Чёрного моря - всего в 20
                                     километрах...
                                 </p>
-                                <a href="" class="link__excursuions">
+                                <a href="" target="_blank" class="link__excursuions">
                                     <button class="button__link-exursions">
                                         Подробнее
                                     </button>
@@ -371,26 +401,28 @@
                             </div>
                         </div>
                     </div>
+                   
+
                 </div>
 
+                <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar "></div>
+                
+            </div>
 
+
+            <div class="swiper__buttons">
+                <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
-
-
             </div>
-        </section>
-
-        <section class="about__us">
-            <img class="about__us-picture" src="./css/images/about-us/about-us.jpg" alt="about__us">
-
-
-
 
         </section>
 
 
+       
 
 
 
