@@ -1,9 +1,10 @@
 .section__links{
     display: flex;
     flex: 1 1 auto;
+    margin-bottom: 90px;
 }
 
-.section-title{
+.main__section-title{
     margin-left: 160px;
     color: var(--section-title-color);
     font-family: 'Montserrat';
@@ -15,7 +16,7 @@
 }
 
 .watch__all{
-    margin-left: 719px;
+    margin-left: 1187px;
     margin-right: 160px;
     color: var(--black);
     font-family: 'Montserrat';
@@ -24,42 +25,43 @@
     font-size: 12px;
     line-height: 15px;
     text-decoration: underline;
-    }
+}
 
-.wrapper {
-    position: relative;
-    max-width: 1280px;
-    margin: 0 auto;
-    }
-        
-.popular-exursions__wrapper{
+/*.popular-exursions__block1{
+    width: 360px;
+    height: 497px;
     margin-top: 211px;
     margin-left: 16px;
     margin-right:16px;
     margin-bottom: 42px;
-}
-
-.popular-exursions__block1{
-    width: 360px;
-    height: 497px;
-    left: 160px;
-    background-color: red;
     }
+
 .popular-exursions__block2{
     width: 360px;
     height: 497px;
-    background-color: red;
+    margin-top: 211px;
+    margin-left: 16px;
+    margin-right:16px;
+    margin-bottom: 42px;
     }
+
 .popular-exursions__block3{
     width: 360px;
     height: 497px;
-    background-color: red;
+    margin-top: 211px;
+    margin-left: 16px;
+    margin-right:16px;
+    margin-bottom: 42px;
     }
+
 .popular-exursions__block4{
     width: 360px;
     height: 497px;
-    background-image: url('../images/slides/monastery.jpg') ;
-    }
+    margin-top: 211px;
+    margin-left: 16px;
+    margin-right:16px;
+    margin-bottom: 42px;
+    }*/
 
 .slide__type{
     font-family: 'Montserrat';
@@ -68,6 +70,7 @@
     line-height: 15px;
     letter-spacing: 0em;
     text-align: left;
+    color: var(--slide--type-color);
 }   
 
 .slide__title{
@@ -78,15 +81,19 @@
     letter-spacing: 0em;
     text-align: left;
     color: var(--slide-title-color);
-
+    margin-top: 2px;
+    margin-bottom: 10px;
 }
-.slide__description  {
+
+.slide__description {
     font-family: 'Montserrat';
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align:left;
+    color: var(--slide--description-color);
+    margin-top: 20px;
  }
 
  .slide__duration-time{
@@ -96,6 +103,8 @@
     line-height: 15px;
     letter-spacing: 0em;
     text-align: left;
+    color: var(--slide--duration-time-color);
+    
  }
 
  .slide__price{
@@ -105,14 +114,27 @@
     line-height: 15px;
     letter-spacing: 0em;
     text-align: left;
+    color: var(--slide--price-color);
+ }
+
+ .slide__price-icon{
+    margin-left: 15px;
  }
 
  .button__link-exursions{
     width: 160px;
     height: 40px;
+    margin-top: 20px;
+    margin-bottom: 42px;
     border-radius: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
     background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
-    color:var(--button-link-color)
+    color:var(--button--link-color);
  }
 
  .button__link-exursions:hover{
@@ -129,3 +151,72 @@
     color:var(--yellow);
     transition: color .3s;
 }
+
+.popular-exursion-section__box1{
+    width: 400px;
+    height: 497px;
+    background: url('../images/slides/road.jpg');
+    color: #fff;
+    background-repeat: no-repeat;
+}
+.popular-exursion-section__box2{
+    width: 400px;
+    height: 497px;
+    background: url('../images/slides/girl-on-horse.jpg');
+    color: #fff;
+    background-repeat: no-repeat;
+}
+.popular-exursion-section__box3{
+    width: 400px;
+    height: 497px;
+    background: url('../images/slides/waterfall.jpg');
+    color: #fff;
+    background-repeat: no-repeat;
+}
+.popular-exursion-section__box4{
+    width: 400px;
+    height: 497px;
+    background: url('../images/slides/road.jpg');
+    color: #fff;
+    background-repeat: no-repeat;
+}
+.popular-exursion-section__box5{
+    width: 400px;
+    height: 497px;
+    background: url('../images/slides/road.jpg');
+    color: #fff;
+    background-repeat: no-repeat;
+}
+.popular-exursion-section__box6{
+    width: 400px;
+    height: 497px;
+    background: url('../images/slides/waterfall.jpg');
+    color: #fff;
+    background-repeat: no-repeat;
+}
+
+.popular-exursions-section__content{
+    padding: 211px 16px 42px 16px;
+}
+
+.swiper-button-next{
+    margin-left: 38px;
+}
+
+.swiper-button-prev{
+    position: absolute;
+    top: 1734px;
+    left: 160px;
+    color: #0499DD;
+}
+
+.swiper-button-next{
+    position: absolute;
+    top: 1734px;
+    left: 160px;
+    color:#0499DD;
+}
+
+.swiper-pagination-progressbar {
+    background: #0499DD;
+    position: absolute;}

@@ -8,4 +8,19 @@
 	--gray-2:#EDEDED;
 	--gray-3:#FBFBFB;
 
+
+	--link-color-1: var(--black);
+    --link-active-color: var(--yellow);
+
+	--section-title-color:var(--blue);
+	--slide-title-color:var(--yellow);
+	--button--link-color:var(--white);
+	--slide--type-color:var(--white);
+	--slide--description-color:var(--white);
+	--slide--duration-time-color:var(--white);
+	--slide--price-color:var(--white);
+	--swiper-scrollbar-color:var(--blue-light);
+
+	--blocks-color:var(--gray-2);
+	--blocks--text-color:var(--black);
 }

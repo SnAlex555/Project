@@ -1,18 +1,50 @@
 .about__us{
-    margin-top: 300px;
-}
-.about__us-block{
-    width: 542px;
-    height: 476px;
-    left: 738px;
-    top: 2038px; 
+    margin-top: 150px;
 }
 
+.about__block {
+    width: 600px;
+    height:500px;
+    padding-top: 61px;
+    padding-left: 85px;
+    padding-right: 75px;
+    padding-bottom: 105px;
+    border-radius: 10px;
+    background-color: var(--blocks-color);
+    transform: translate(191%,-150%);
+
+}
 .about__us-section-title{
     color: var(--section-title-color);
     margin-bottom: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
 }
 
+.about__description{
+    max-width: 382px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--blocks--text-color);
+}
+.about__sub-description{
+    max-width: 382px;
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--blocks--text-color);
+}
 
 
 

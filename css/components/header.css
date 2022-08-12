@@ -18,7 +18,7 @@
     justify-content: space-between;
     width: 403px;
     height: 17px;
-    margin-left: 910px;
+    margin-left: 1085px;
     margin-top: 46px;
     margin-right: 160px;
 }
@@ -121,12 +121,28 @@
     transition: color .3s;
 }
 
+.icon { 
+    width: 25px; 
+    height: 25px;
+    fill: #fff;
+    transform: scale(1);
+    transition: fill 0.3s linear;
+    transition: transform 0.3s linear;
+    
+  }
+
+.icon:hover{
+    transform: scale(1.5);
+    fill:#FFC700;
+}
+
+
 .button__link{
     width: 230px;
     height: 50px;
     margin-left: 160px;
     background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
-    color: var(--white);
+    color: var(--button--link-color);
     padding:16px 48px 16px 48px;
     text-align: center;
     font-family: 'Montserrat';
@@ -159,3 +175,4 @@
    column-gap: 20px;
    transform: translate(0%,30%);
 }
+
