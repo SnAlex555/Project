@@ -135,6 +135,7 @@
     align-items: center;
     background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
     color:var(--button--link-color);
+    border: none;
  }
 
  .button__link-exursions:hover{

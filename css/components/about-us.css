@@ -1,12 +1,15 @@
 .about__us{
     margin-top: 150px;
 }
+.about__wrapper{
+    height: 1130px;
+}
 
 .about__block {
     width: 600px;
     height:500px;
     padding-top: 61px;
-    padding-left: 85px;
+    padding-left: 95px;
     padding-right: 75px;
     padding-bottom: 105px;
     border-radius: 10px;

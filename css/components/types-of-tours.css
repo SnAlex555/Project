@@ -1,0 +1,83 @@
+.types-of-tours__wrapper{
+    margin-left: 160px;
+    margin-top: 90px;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+
+.main__section-title{
+    margin-left: 160px;
+    color: var(--section-title-color);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+}
+
+.types-of-tours__img-box{
+    display: inline-block;
+}
+
+.types-of-tours__description{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.types-of-tours__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--section--sub-title-color);
+    margin-bottom:10px;
+    margin-left: 20px;
+}
+
+.types-of-tours__discription-button{
+    margin-top:60px;
+    text-align:center;
+
+}
+
+.types-of-tours__link-button{
+    border: none;
+}
+
+.types-of-tours__box1{
+    display: flex;
+    width: 650px;
+    height: 134px;
+    
+}
+
+.types-of-tours__box2{
+    display: flex;
+    width: 650px;
+    height: 134px;
+    
+
+    
+}
+.types-of-tours__box3{
+    display: flex;
+    width: 650px;
+    height: 134px;
+    
+    
+}
+.types-of-tours__box4{
+    display: flex; 
+    width: 650px;
+    height: 134px;
+     
+}
+
+.types-of-tours__img{
+    width: 75px;
+    height: 74px;
+
+}

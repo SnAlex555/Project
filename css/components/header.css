@@ -115,6 +115,7 @@
     gap: 14px;
 }
 
+
 .header__social-links:hover{
     color: var(--yellow);
     cursor: pointer;
@@ -151,6 +152,7 @@
     font-size: 14px;
     line-height: 17px;
     border-radius: 60px;
+    border: none;
 }
 
 .button__link:hover{

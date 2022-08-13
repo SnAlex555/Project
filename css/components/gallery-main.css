@@ -1,0 +1,36 @@
+.gallery__main{
+    margin-top: 150px;
+}
+
+.gallery__links{
+    display: flex;
+    flex: 1 1 auto;
+    margin-bottom: 90px;
+}
+
+.main__section-title{
+    margin-left: 160px;
+    color: var(--section-title-color);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+}
+
+.gallery__watch-all{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: var(--black);
+    margin-left: 1391px;
+    margin-right: 160px;
+}
+
+.gallery__items{
+    display: grid;
+}
