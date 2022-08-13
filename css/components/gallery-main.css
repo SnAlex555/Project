@@ -1,11 +1,13 @@
 .gallery__main{
     margin-top: 150px;
 }
-
-.gallery__links{
-    display: flex;
-    flex: 1 1 auto;
-    margin-bottom: 90px;
+.gallery__wrapper{
+    margin-top: 90px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 1410px;
+    height: 687px;
+    display:flex;
 }
 
 .main__section-title{
@@ -27,10 +29,22 @@
     line-height: 15px;
     text-decoration-line: underline;
     color: var(--black);
-    margin-left: 1391px;
+    margin-left: 1658px;
     margin-right: 160px;
 }
 
-.gallery__items{
-    display: grid;
+.gallery__items1{
+    display: flex;
+    flex-direction: column; 
 }
+
+.gallery__items2{
+    display: flex;
+    flex-direction:column ;
+}  
+
+.gallery__items4{
+    display: flex;
+    flex-direction: row;
+}
+    
