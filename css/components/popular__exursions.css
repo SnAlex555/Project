@@ -199,24 +199,3 @@
     padding: 211px 16px 42px 16px;
 }
 
-.swiper-button-next{
-    margin-left: 38px;
-}
-
-.swiper-button-prev{
-    position: absolute;
-    top: 1734px;
-    left: 160px;
-    color: #0499DD;
-}
-
-.swiper-button-next{
-    position: absolute;
-    top: 1734px;
-    left: 160px;
-    color:#0499DD;
-}
-
-.swiper-pagination-progressbar {
-    background: #0499DD;
-    position: absolute;}
