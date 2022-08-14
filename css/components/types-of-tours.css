@@ -1,10 +1,8 @@
 .types-of-tours__wrapper{
     margin-left: 160px;
     margin-top: 90px;
-    width: 1500px;
-    margin: 0 auto;
+    width: 1700px; 
 }
-
 
 .main__section-title{
     margin-left: 160px;
@@ -24,6 +22,7 @@
 .types-of-tours__description{
     margin-left: 20px;
     margin-bottom: 40px;
+
 }
 
 .types-of-tours__title{
@@ -39,8 +38,13 @@
 
 .types-of-tours__discription-button{
     margin-top:60px;
-    text-align:center;
+    display: grid;
+    grid-gap:20px;
+    justify-items: center;
+}
 
+.types-of-tours__discription-bottom{
+    text-align: center;
 }
 
 .types-of-tours__link-button{
@@ -49,35 +53,27 @@
 
 .types-of-tours__box1{
     display: flex;
-    width: 650px;
+    width: 750px;
     height: 134px;
-    
 }
 
 .types-of-tours__box2{
     display: flex;
-    width: 650px;
+    width: 750px;
     height: 134px;
-    
-
-    
 }
 .types-of-tours__box3{
     display: flex;
-    width: 650px;
+    width: 750px;
     height: 134px;
-    
-    
 }
 .types-of-tours__box4{
     display: flex; 
-    width: 650px;
+    width: 750px;
     height: 134px;
-     
 }
 
 .types-of-tours__img{
     width: 75px;
     height: 74px;
-
 }

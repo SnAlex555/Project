@@ -24,4 +24,6 @@
 
 	--blocks-color:var(--gray-2);
 	--blocks--text-color:var(--black);
+	--footer-color:var(--gray-2);
+	--footer-items:var(--black);
 }

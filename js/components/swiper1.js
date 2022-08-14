@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper1', {
   direction:'horizontal',
   slidesPerView: 4.5,
   spaceBetween: 0,

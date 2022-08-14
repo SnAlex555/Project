@@ -3,11 +3,11 @@
 }
 .gallery__wrapper{
     margin-top: 90px;
-    margin-left: 15px;
+    margin-left: 160px;
     margin-right: 15px;
     width: 1410px;
-    height: 687px;
-    display:flex;
+    height: 686px;
+    display: flex;
 }
 
 .main__section-title{
@@ -33,18 +33,6 @@
     margin-right: 160px;
 }
 
-.gallery__items1{
-    display: flex;
-    flex-direction: column; 
+.gallery__item{
+   padding: 10px;
 }
-
-.gallery__items2{
-    display: flex;
-    flex-direction:column ;
-}  
-
-.gallery__items4{
-    display: flex;
-    flex-direction: row;
-}
-    

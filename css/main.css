@@ -12,7 +12,10 @@
 @import url('./components/about-us.css');
 @import url('./components/types-of-tours.css');
 @import url('./components/gallery-main.css');
-
+@import url('./components/feedbacks.css');
+@import url('./components/swiper2.css');
+@import url('./components/main-form.css');
+@import url('./components/footer.css');
 
 
 * {

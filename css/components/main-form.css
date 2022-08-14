@@ -1,0 +1,100 @@
+.main__form{
+    padding-top: 150px ;
+}
+
+.main__form-wrapper{
+     width: 1908px;
+     height: 640px;
+     background-image: url('../images/form/form-background.jpg');
+}
+
+.main__form-form{
+    margin: 860px;
+    width: 560px;
+    height: 640px;
+    background-image: url('../images/form/Form-form.jpg');
+    background-color: transparent;
+}
+
+.main-form-button__link{
+    margin: 83px 225px 143px 105px;
+    width: 230px;
+    height: 50px;
+    border-radius: 40px;
+    align-items: center;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    color:var(--button--link-color);
+    border: none;
+ }
+
+ .main-form-button__link:hover{
+    color: var(--yellow);
+    cursor: pointer
+}
+.main__form-title{
+    padding-top: 132px;
+    padding-left: 105px;
+    padding-right: 195px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.main__form-description{
+    padding: 6px ;
+    margin-left: 105px ;
+    margin-right: 230px;
+    margin-bottom: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFC700;
+}
+
+.input__name{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 360px;
+    margin-left: 105px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+
+}
+.input__tele{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 360px;
+    margin-left: 105px;
+    margin-top: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.input__mail{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 360px;
+    margin-left: 105px;
+    margin-top: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}

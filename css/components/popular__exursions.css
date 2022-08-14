@@ -27,42 +27,6 @@
     text-decoration: underline;
 }
 
-/*.popular-exursions__block1{
-    width: 360px;
-    height: 497px;
-    margin-top: 211px;
-    margin-left: 16px;
-    margin-right:16px;
-    margin-bottom: 42px;
-    }
-
-.popular-exursions__block2{
-    width: 360px;
-    height: 497px;
-    margin-top: 211px;
-    margin-left: 16px;
-    margin-right:16px;
-    margin-bottom: 42px;
-    }
-
-.popular-exursions__block3{
-    width: 360px;
-    height: 497px;
-    margin-top: 211px;
-    margin-left: 16px;
-    margin-right:16px;
-    margin-bottom: 42px;
-    }
-
-.popular-exursions__block4{
-    width: 360px;
-    height: 497px;
-    margin-top: 211px;
-    margin-left: 16px;
-    margin-right:16px;
-    margin-bottom: 42px;
-    }*/
-
 .slide__type{
     font-family: 'Montserrat';
     font-size: 12px;
@@ -154,42 +118,42 @@
 }
 
 .popular-exursion-section__box1{
-    width: 400px;
+    width: 360px;
     height: 497px;
     background: url('../images/slides/road.jpg');
     color: #fff;
     background-repeat: no-repeat;
 }
 .popular-exursion-section__box2{
-    width: 400px;
+    width: 360px;
     height: 497px;
     background: url('../images/slides/girl-on-horse.jpg');
     color: #fff;
     background-repeat: no-repeat;
 }
 .popular-exursion-section__box3{
-    width: 400px;
+    width: 360px;
     height: 497px;
     background: url('../images/slides/waterfall.jpg');
     color: #fff;
     background-repeat: no-repeat;
 }
 .popular-exursion-section__box4{
-    width: 400px;
+    width: 360px;
     height: 497px;
     background: url('../images/slides/road.jpg');
     color: #fff;
     background-repeat: no-repeat;
 }
 .popular-exursion-section__box5{
-    width: 400px;
+    width: 360px;
     height: 497px;
     background: url('../images/slides/road.jpg');
     color: #fff;
     background-repeat: no-repeat;
 }
 .popular-exursion-section__box6{
-    width: 400px;
+    width: 360px;
     height: 497px;
     background: url('../images/slides/waterfall.jpg');
     color: #fff;
