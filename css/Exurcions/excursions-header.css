@@ -1,0 +1,61 @@
+.excursions__header{
+    background-image: url('../Exurcions/images/exursions-header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 386px;
+}
+
+.header__navigation{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.header__navigation-list {
+    display: flex;
+    justify-content: space-between;
+    width: 403px;
+    height: 17px;
+    margin-left: 1085px;
+    margin-top: 46px;
+    margin-right: 160px;
+}
+
+.header__navigation-list-item{
+   padding: 20px;
+}
+
+.header__navigation-link{
+    color: var(--white);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.header__navigation-link:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+.header__logo{
+    width: 40px;
+    height: 58px;
+    margin-top: 27px;
+    margin-left: 160px;
+
+}
+
+.excursions__header-logo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    color:#ffffff;
+    margin-left: 160px;
+    margin-top: 152px;
+}
