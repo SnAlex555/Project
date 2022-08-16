@@ -112,7 +112,6 @@
 }
 
 .link__excursuions:hover{
-    text-decoration: underline;
     color:var(--yellow);
     transition: color .3s;
 }

@@ -9,7 +9,8 @@
     display: flex;
     flex-direction: row;
     flex: 1 1 auto;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .header__navigation-list {
@@ -44,7 +45,7 @@
 .header__logo{
     width: 40px;
     height: 58px;
-    margin-top: 27px;
+    margin-top: 40px;
     margin-left: 160px;
 
 }
@@ -57,5 +58,5 @@
     line-height: 88px;
     color:#ffffff;
     margin-left: 160px;
-    margin-top: 152px;
+    margin-top: 139px;
 }

@@ -7,6 +7,7 @@
 	--gray-1:#D4D4D4;
 	--gray-2:#EDEDED;
 	--gray-3:#FBFBFB;
+	--gray-4:#E5E5E5;
 
 
 	--link-color-1: var(--black);
@@ -26,4 +27,8 @@
 	--blocks--text-color:var(--black);
 	--footer-color:var(--gray-2);
 	--footer-items:var(--black);
+	--pages--main-color:var(--gray-4);
+	--pages--main-blocks-color:var(--white);
+
+
 }

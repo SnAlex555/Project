@@ -1,0 +1,23 @@
+.excursions__content{
+    margin-top: 150px;
+    background-color:var(--pages--main-color);
+    display: flex;
+
+}
+.excursions-content__filter{
+    width: 295px;
+    height: 1018px;
+    margin-left:360px;
+    background-color:var(--pages--main-blocks-color);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.excursions__filter{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0499DD;
+}

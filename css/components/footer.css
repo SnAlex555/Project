@@ -7,19 +7,31 @@ footer{
 }
 
 .footer__container1{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-evenly;
     margin-left: 160px;
     margin-right: 315px;
 }
 
 .footer__container2{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-evenly;
     margin-right: 160px;
 }
 .footer__baloon{
-   
+    margin-top: 30px;
+    width: 80px;
+    height: 114px;
+}
+.footer__navigation-list{
+    margin-top: 53px;
+    margin-bottom: 53px;
 }
 
-
 .footer__navigation-list-item{
+    padding-top: 8px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -48,5 +60,33 @@ footer{
 }
 
 .footer__contacts{
-    
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.footer__links{
+    margin-top: 53px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__social-links{
+    margin-top: 23px;
+}
+
+.footer__icon{
+    width: 30px;
+    height:20px;
+}
+
+.footer__icon:hover{
+    transform: scale(1.5);
+    transition: fill 0.3s linear;
+    transition: transform 0.3s linear;
 }

@@ -1,0 +1,139 @@
+.excursions__main{
+    background-color:var(--pages--main-color)
+}
+
+.excursions__top-wrapper{
+    width: 1120px;
+    height: 260px;
+    margin-left: 360px;
+    margin-top: 40px;
+    background-color:var(--pages--main-blocks-color);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.excursions__list-box{
+    padding-top: 60px;
+    padding-left: 322px;
+    padding-right: 322px;;
+}
+
+.excursions__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.excursions__list-item{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.excursions__list-bus{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0499DD;
+
+}
+.top{
+    position: absolute;
+    top:514px;
+    left:682px;
+    z-index:1;
+}
+
+.bottom{
+    position: absolute;
+    top: 514px;
+    left:681px;
+}
+
+.excursions__top-place{
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 235px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.excursions__top-date{
+    margin-top: 60px;
+    width: 235px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.excursions__top-people{
+    margin-top: 60px;
+    width: 235px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.link__excursions-top{
+    text-decoration: none;
+}
+
+.link__excursuions-top:hover{
+    color:var(--yellow);
+    transition: color .3s;
+}
+
+.button__link-excursions-top{
+    width: 235px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    color:var(--button--link-color);
+    border: none;
+}
+
+.button__link-excursions-top:hover{
+    color: var(--yellow);
+    cursor: pointer
+}
+
+.excursions_top{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.excursions__button{
+    margin-top: 60px;
+}
+
+.excursions__top-p{
+    margin-left: 25px;
+}
+
+.excursions__top-img{
+    margin-right: 15px;
+}

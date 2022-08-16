@@ -17,6 +17,15 @@
 @import url('./components/main-form.css');
 @import url('./components/footer.css');
 
+@import url('./Exurcions/excursions-header.css');
+@import url('./Exurcions/excursions__top-filter.css');
+@import url('./Exurcions/excursions-content__filter.css');
+@import url('./Exurcions/excursions-content__out-tours.css');
+
+
+
+
+
 
 * {
     box-sizing: border-box;
