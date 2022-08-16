@@ -60,7 +60,7 @@
     margin-top: 20px;
  }
 
- .slide__duration-time{
+.slide__duration-time{
     font-family: 'Montserrat';
     font-size: 12px;
     font-weight: 500;
@@ -71,7 +71,7 @@
     
  }
 
- .slide__price{
+.slide__price{
     font-family: 'Montserrat';
     font-size: 12px;
     font-weight: 500;
@@ -81,11 +81,11 @@
     color: var(--slide--price-color);
  }
 
- .slide__price-icon{
+.slide__price-icon{
     margin-left: 15px;
  }
 
- .button__link-exursions{
+.button__link-exursions{
     width: 160px;
     height: 40px;
     margin-top: 20px;
@@ -102,7 +102,7 @@
     border: none;
  }
 
- .button__link-exursions:hover{
+.button__link-exursions:hover{
     color: var(--yellow);
     cursor: pointer
 }
