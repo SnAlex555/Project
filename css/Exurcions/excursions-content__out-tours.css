@@ -1,10 +1,15 @@
 .excursions-content__our-tours{
     width: 779px;
-    height: 1341px;
-    background-color:var(--pages--main-blocks-color);
+    height: 1500px;
+    background-color:var(--pages--main-color);
     margin-left: 40px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
+}
+
+.excursions__content{
+    width: 1900px;
+    height:1800px;
 }
 
 .excursions-content__title{
@@ -29,16 +34,113 @@
     border-radius: 10px;
 }
 
-.slide__cost-and-time{
+.excursions-content__slide{
+   padding-top: 27px;
+   padding-right:43px;
+   padding-left: 47px;
+}
 
+.slide__titles-type{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFC700;
+}
+
+.slide__titles-place{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282828;
+    padding-top: 2px;
+}
+
+.slide__cost-and-time{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+
+.slide__text-and-line{
+    display: flex;
+    margin-top: 20px;
 }
 
 .slide__text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #282828;
+    padding-left: 20px;
+}
+
+.slide__cost-adult{
+    width: 90px;
+    height: 35px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slide__cost-kid{
+    width: 90px;
+    height: 35px;
+    margin-left: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kid{
+    margin-left: 13px;
+}
+
+.adult,.kid{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #282828;
+}
+
+.cost{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0499DD;
+}
+
+.time{
+    padding: 7px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0499DD;
+}
+
+.slide__cost-time{
+    width:112px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    padding-bottom: 30px;
 }
 
 .slide__link{
     text-decoration: none;
+    padding-right: 10px;
 }
 
 .slide__link:hover{
@@ -66,3 +168,14 @@
     cursor: pointer
 }
 
+.slide__button-box{
+    display: flex;
+    margin-top: 20px;
+}
+
+.excursions__pages{
+    width: 89px;
+    height: 17px;
+    margin-top: 40px;
+    margin-left: 416px;
+}

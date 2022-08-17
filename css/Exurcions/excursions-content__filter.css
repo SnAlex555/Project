@@ -14,6 +14,9 @@
 }
 
 .excursions__filter{
+    padding-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -21,3 +24,116 @@
     line-height: 17px;
     color: #0499DD;
 }
+
+.filter__cost{
+    width: 225px;
+    height: 102px;
+    margin-top: 30px;
+    padding-left: 35px;
+}
+
+.filter__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+
+}
+
+.filter__line{
+    padding-left: 35px;
+    padding-top: 45px;
+}
+
+.filter__title-and-svg{
+    display: flex;
+    justify-content: space-between
+}
+
+.filter__peoples{
+    padding: 35px;
+}
+
+.form__radio-btn{
+    margin: 7px;
+    display: inline-block;
+
+}
+
+.form__radio-btn input[type=radio]{
+    display: none;
+}
+
+.form__radio-btn label {
+	cursor: pointer;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 40px;
+}
+ 
+.form__radio-btn input[type=radio]:checked + label {
+	background: #0499DD;
+}
+
+.form__radio-btn label:hover {
+	color:#0499DD;;
+}
+ 
+
+
+
+
+
+.filter__button-box{
+
+}
+
+.filter__link{
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.filter__link:hover{
+    color:var(--yellow);
+    transition: color .3s;
+}
+
+.filter__button{
+    width: 225px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    color:var(--button--link-color);
+    border: none;
+}
+
+.filter__button:hover{
+    color: var(--yellow);
+    cursor: pointer
+}
+
+.filter__bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.filter__button-description{
+    padding-left: 6px;
+}
+
+
+
+
+
+
+

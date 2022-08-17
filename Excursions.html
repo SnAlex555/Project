@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/libs/uislider/nouislider.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>Excursions</title>
 </head>
@@ -89,159 +90,413 @@
 
             <div class="excursions-content__filter">
                 <h4 class="excursions__filter">Фильтры</h4>
+
                 <div class="filter__cost">
 
+                    <div class="filter__title-and-svg">
+                        <h5 class="filter__title">Стоимость</h5>
+                        <img src="./css/Exurcions/images/icons/minus.svg" alt="minus" width="16px" heigh="2px">
+                    </div>
+
+                    <div class="filter__inputs">
+                        <label class="filter__cost-label">
+                            <span class="filter__cost-text">От</span>
+                            <input type="number" min="1000" max="10000" placeholder="1000" id="input-1"
+                                class="filter__cost-input">
+                            <span class="filter__cost-text">₽</span>
+                        </label>
+
+                        <label class="filter__cost-label">
+                            <span class="filter__cost-text">До</span>
+                            <input type="number" min="1000" max="10000" placeholder="10000" id="input-2"
+                                class="filter__cost-input">
+                            <span class="filter__cost-text">₽</span>
+                        </label>
+                        <div class="filter__input-slider" id="range-slider"></div>
+                    </div>
+
                 </div>
-                <div class="filter__peoples"></div>
-                <div class="filter__place"></div>
-                <div class="filter__duration"></div>
-                <div class="filter__date"></div>
-                <div class="filter__button"></div>
+
+                <img src="./css/Exurcions/images/icons/line.svg" class="filter__line" alt="line">
+
+                <div class="filter__peoples">
+
+                    <div class="filter__title-and-svg">
+                        <h5 class="filter__title">Количество человек</h5>
+                        <img src="./css/Exurcions/images/icons/minus.svg" alt="minus" width="16px" heigh="2px">
+                    </div>
+
+                    <div class="people__buttons">
+
+                        <div class="form__radio-btn">
+                            <input id="radio-1" type="radio" name="radio" value="1">
+                            <label for="radio-1">1 чел.</label>
+                            <input id="radio-2" type="radio" name="radio" value="2">
+                            <label for="radio-2">2 чел.</label>
+                            <input id="radio-3" type="radio" name="radio" value="3">
+                            <label for="radio-3">3 чел.</label>
+                        </div>
+                        <div class="form__radio-btn">
+                            <input id="radio-4" type="radio" name="radio" value="4">
+                            <label for="radio-4">4 чел.</label>
+                            <input id="radio-5" type="radio" name="radio" value="5">
+                            <label for="radio-5">5 чел.</label>
+                            <input id="radio-6" type="radio" name="radio" value="6">
+                            <label for="radio-6">6 чел.</label>
+                        </div>
+                        <div class="form__radio-btn">
+                            <input id="radio-7" type="radio" name="radio" value="7">
+                            <label for="radio-7">7 чел.</label>
+                            <input id="radio-8" type="radio" name="radio" value="8">
+                            <label for="radio-8">8 чел.</label>
+                            <input id="radio-9" type="radio" name="radio" value="9">
+                            <label for="radio-9">9 чел.</label>
+                        </div>
+                        <div class="form__radio-btn">
+                            <input id="radio-10" type="radio" name="radio" value="10">
+                            <label for="radio-10">10 чел.</label>
+                            <input id="radio-11" type="radio" name="radio" value="11">
+                            <label for="radio-11">Больше 10 чел.</label>
+                        </div>
+                    </div>
+
+                    <img src="./css/Exurcions/images/icons/line.svg" class="filter__line" alt="line">
+                </div>    
+            
+                <div class="filter__place">
+
+                    <div class="filter__title-and-svg">
+                        <h5 class="filter__title">Место</h5>
+                        <img src="./css/Exurcions/images/icons/minus.svg" alt="minus" width="16px" heigh="2px">
+                    </div>
+
+                    <div class="form_radio_btn2">
+                        <input id="radio-1" type="radio" name="radio" value="1">
+                        <label for="radio-1">Абхазия</label>
+                    </div>
+
+                    <div class="form_radio_btn2">
+                        <input id="radio-2" type="radio" name="radio" value="2">
+                        <label for="radio-2">Красная поляна</label>
+                    </div>
+
+                    <div class="form_radio_btn2">
+                        <input id="radio-3" type="radio" name="radio" value="3">
+                        <label for="radio-3">Сочи</label>
+                    </div>
+
+                    <div class="form_radio_btn2">
+                        <input id="radio-4" type="radio" name="radio" value="4">
+                        <label for="radio-4">Адлер</label>
+                    </div>
+
+                    <div class="form_radio_btn2">
+                        <input id="radio-5" type="radio" name="radio" value="5">
+                        <label for="radio-5">Цыкуны</label>
+                    </div>
+
+                    <img src="./css/Exurcions/images/icons/line.svg" class="filter__line" alt="line">
+                </div>
+
+                <div class="filter__duration">
+
+                    <div class="filter__title-and-svg">
+                        <h5 class="filter__title">Длительность</h5>
+                        <img src="./css/Exurcions/images/icons/minus.svg" alt="minus" width="16px" heigh="2px">
+                    </div>
+
+                    <div class="form_radio_btn3">
+                        <input id="radio-1" type="radio" name="radio" value="1">
+                        <label for="radio-1">1 час</label>
+                    </div>
+
+                    <div class="form_radio_btn3">
+                        <input id="radio-2" type="radio" name="radio" value="2">
+                        <label for="radio-2">2 часа</label>
+                    </div>
+
+                    <div class="form_radio_btn3">
+                        <input id="radio-3" type="radio" name="radio" value="3">
+                        <label for="radio-3">2,5 часа</label>
+                    </div>
+
+                    <div class="form_radio_btn3">
+                        <input id="radio-4" type="radio" name="radio" value="4">
+                        <label for="radio-4">4 часа</label>
+                    </div>
+
+                    <div class="form_radio_btn3">
+                        <input id="radio-5" type="radio" name="radio" value="5">
+                        <label for="radio-5">6 часов</label>
+                    </div>
+
+                    <img src="./css/Exurcions/images/icons/line.svg" class="filter__line" alt="line">
+                </div>
+
+                <div class="filter__date">
+
+                    <div class="filter__title-and-svg">
+                        <h5 class="filter__title">Дата</h5>
+                        <img src="./css/Exurcions/images/icons/minus.svg" alt="minus" width="16px" heigh="2px">
+                    </div>
+
+                    <div class="form_radio_btn4">
+                        <input id="radio-1" type="radio" name="radio" value="1">
+                        <label for="radio-1">18.08.2022</label>
+                    </div>
+
+                    <div class="form_radio_btn4">
+                        <input id="radio-2" type="radio" name="radio" value="2">
+                        <label for="radio-2">19.08.2022</label>
+                    </div>
+
+                    <div class="form_radio_btn4">
+                        <input id="radio-3" type="radio" name="radio" value="3">
+                        <label for="radio-3">21.08.2022</label>
+                    </div>
+
+                    <div class="form_radio_btn4">
+                        <input id="radio-4" type="radio" name="radio" value="4">
+                        <label for="radio-4">23.08.2022</label>
+                    </div>
+
+                    <div class="form_radio_btn4">
+                        <input id="radio-5" type="radio" name="radio" value="5">
+                        <label for="radio-5">26.08.2022</label>
+                    </div>
+                </div>
+
+                <img src="./css/Exurcions/images/icons/line.svg" class="filter__line" alt="line">
+
+                <div class="filter__button-box">
+                    <a href="" class="filter__link">
+                        <button class="filter__button">
+                           Показать
+                        </button>
+                    </a>
+                    <div class="filter__bottom">
+                    <img src="./css/Exurcions/images/icons/X.svg" alt="X" width="14px" height="14px">
+                    <p class="filter__button-description">Сбросить фильтры</p>
+                    </div>
+                </div>
 
 
             </div>
 
             <div class="flex-container flex-column">
                 <h2 class="excursions-content__title">Наши туры</h2>
-        
-                    <div class="excursions-content__box">
-                        <img src="./css/Exurcions/images/exurcions-slide.png">
-                        <div class="excursions-content__slide">
-                            <div class="slide__titles">
-                                <p>Автобусный тур</p>
-                                <p>Золотое кольцо Абхазии (из Адлера)</p>
+                <div class="excursions-content__box">
+                    <img src="./css/Exurcions/images/exurcions-slide.png">
+                    <div class="excursions-content__slide">
+                        <div class="slide__titles">
+                            <p class="slide__titles-type">Автобусный тур</p>
+                            <p class="slide__titles-place">Золотое кольцо Абхазии (из Адлера)</p>
+                        </div>
+                        <div class="slide__cost-and-time">
+                            <div class="flex-container flex-column">
+                                <div class="slide__cost-adult">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <span class="cost">1 618 ₽</span>
+                                </div>
+                                <span class="adult">Взрослый билет</span>
                             </div>
-                            <div class="slide__cost-and-time">
-                                <img src="./css/Exurcions/images/icons/cost-blue.svg">
-                                <span>1 618 ₽</span>
-                                <img src="./css/Exurcions/images/icons/cost-blue.svg">
-                                <span>1 412 ₽</span>
+
+                            <div class="flex-container flex-column">
+                                <div class="slide__cost-kid">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <span class="cost">1 412 ₽</span>
+                                </div>
+                                <span class="kid">Детский билет</span>
+                            </div>
+
+                            <div class="slide__cost-time">
                                 <img src="./css/Exurcions/images/icons/time-blue.svg">
-                                <span>2,5 часа</span>
-                            </div>
-                            <div class="slide__text">
-                                <img src="./css/Exurcions/images/icons/vertical-line.svg">
-                                <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20 мест). 
-                                    По маршруту вас будет сопровождать профессиональный гид. Посадка на экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки. 
-                                    Пересечение границы без пересадок...
-                                </p>
-                            </div>
-                            <div class="slide__button-box">
-                                <a href="" class="slide__link">
-                                    <button class="slide__button">
-                                        К экскурсиям ⟶
-                                    </button>
-                                </a>
-                                <img src="./css/Exurcions/images/icons/hearth.svg">
+                                <span class="time">2,5 часа</span>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="excursions-content__box">
-                        <img src="./css/Exurcions/images/exurcions-slide.png">
-                        <div class="excursions-content__slide">
-                            <div class="slide__titles">
-                                <p>Автобусный тур</p>
-                                <p>Золотое кольцо Абхазии (из Адлера)</p>
-                            </div>
-                            <div class="slide__cost-and-time">
-                                <img src="./css/Exurcions/images/icons/cost-blue.svg">
-                                <span>1 618 ₽</span>
-                                <img src="./css/Exurcions/images/icons/cost-blue.svg">
-                                <span>1 412 ₽</span>
-                                <img src="./css/Exurcions/images/icons/time-blue.svg">
-                                <span>2,5 часа</span>
-                            </div>
-                            <div class="slide__text">
-                                <img src="./css/Exurcions/images/icons/vertical-line.svg">
-                                <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20 мест). 
-                                    По маршруту вас будет сопровождать профессиональный гид. Посадка на экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки. 
-                                    Пересечение границы без пересадок...
-                                </p>
-                            </div>
-                            <div class="slide__button-box">
-                                <a href="" class="slide__link">
-                                    <button class="slide__button">
-                                        К экскурсиям ⟶
-                                    </button>
-                                </a>
-                                <img src="./css/Exurcions/images/icons/hearth-blue.svg">
-                            </div>
+                        <div class="slide__text-and-line">
+                            <img src="./css/Exurcions/images/icons/vertical-line.svg">
+                            <p class="slide__text">Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес
+                                Спринтер (20 мест).
+                                По маршруту вас будет сопровождать профессиональный гид. Посадка на экскурсию
+                                осуществляется с вашего отеля или ближайшей автобусной остановки.
+                                Пересечение границы без пересадок...
+                            </p>
+                        </div>
+
+                        <div class="slide__button-box">
+                            <a href="" class="slide__link">
+                                <button class="slide__button">
+                                    Подробнее
+                                </button>
+                            </a>
+                            <img src="./css/Exurcions/images/icons/hearth.svg">
                         </div>
                     </div>
+                </div>
 
-                    <div class="excursions-content__box">
-                        <img src="./css/Exurcions/images/exurcions-slide.png">
-                        <div class="excursions-content__slide">
-                            <div class="slide__titles">
-                                <p>Автобусный тур</p>
-                                <p>Золотое кольцо Абхазии (из Адлера)</p>
+                <div class="excursions-content__box">
+                    <img src="./css/Exurcions/images/exurcions-slide.png">
+                    <div class="excursions-content__slide">
+                        <div class="slide__titles">
+                            <p class="slide__titles-type">Автобусный тур</p>
+                            <p class="slide__titles-place">Золотое кольцо Абхазии (из Адлера)</p>
+                        </div>
+                        <div class="slide__cost-and-time">
+                            <div class="flex-container flex-column">
+                                <div class="slide__cost-adult">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <span class="cost">1 618 ₽</span>
+                                </div>
+                                <span class="adult">Взрослый билет</span>
                             </div>
-                            <div class="slide__cost-and-time">
-                                <img src="./css/Exurcions/images/icons/cost-blue.svg">
-                                <span>1 618 ₽</span>
-                                <img src="./css/Exurcions/images/icons/cost-blue.svg">
-                                <span>1 412 ₽</span>
+
+                            <div class="flex-container flex-column">
+                                <div class="slide__cost-kid">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <span class="cost">1 412 ₽</span>
+                                </div>
+                                <span class="kid">Детский билет</span>
+                            </div>
+
+                            <div class="slide__cost-time">
                                 <img src="./css/Exurcions/images/icons/time-blue.svg">
-                                <span>2,5 часа</span>
-                            </div>
-                            <div class="slide__text">
-                                <img src="./css/Exurcions/images/icons/vertical-line.svg">
-                                <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20 мест). 
-                                    По маршруту вас будет сопровождать профессиональный гид. Посадка на экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки. 
-                                    Пересечение границы без пересадок...
-                                </p>
-                            </div>
-                            <div class="slide__button-box">
-                                <a href="" class="slide__link">
-                                    <button class="slide__button">
-                                        К экскурсиям ⟶
-                                    </button>
-                                </a>
-                                <img src="./css/Exurcions/images/icons/hearth.svg">
+                                <span class="time">2,5 часа</span>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="excursions-content__box">
-                        <img src="./css/Exurcions/images/exurcions-slide.png">
-                        <div class="excursions-content__slide">
-                            <div class="slide__titles">
-                                <p>Автобусный тур</p>
-                                <p>Золотое кольцо Абхазии (из Адлера)</p>
-                            </div>
-                            <div class="slide__cost-and-time">
-                                <img src="./css/Exurcions/images/icons/cost-blue.svg">
-                                <span>1 618 ₽</span>
-                                <img src="./css/Exurcions/images/icons/cost-blue.svg">
-                                <span>1 412 ₽</span>
-                                <img src="./css/Exurcions/images/icons/time-blue.svg">
-                                <span>2,5 часа</span>
-                            </div>
-                            <div class="slide__text">
-                                <img src="./css/Exurcions/images/icons/vertical-line.svg">
-                                <p>Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес Спринтер (20 мест). 
-                                    По маршруту вас будет сопровождать профессиональный гид. Посадка на экскурсию осуществляется с вашего отеля или ближайшей автобусной остановки. 
-                                    Пересечение границы без пересадок...
-                                </p>
-                            </div>
-                            <div class="slide__button-box">
-                                <a href="" class="slide__link">
-                                    <button class="slide__button">
-                                        К экскурсиям ⟶
-                                    </button>
-                                </a>
-                                <img src="./css/Exurcions/images/icons/hearth.svg">
-                            </div>
+                        <div class="slide__text-and-line">
+                            <img src="./css/Exurcions/images/icons/vertical-line.svg">
+                            <p class="slide__text">Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес
+                                Спринтер (20 мест).
+                                По маршруту вас будет сопровождать профессиональный гид. Посадка на экскурсию
+                                осуществляется с вашего отеля или ближайшей автобусной остановки.
+                                Пересечение границы без пересадок...
+                            </p>
+                        </div>
+
+                        <div class="slide__button-box">
+                            <a href="" class="slide__link">
+                                <button class="slide__button">
+                                    Подробнее
+                                </button>
+                            </a>
+                            <img src="./css/Exurcions/images/icons/hearth-blue.svg">
                         </div>
                     </div>
+                </div>
 
+                <div class="excursions-content__box">
+                    <img src="./css/Exurcions/images/exurcions-slide.png">
+                    <div class="excursions-content__slide">
+                        <div class="slide__titles">
+                            <p class="slide__titles-type">Автобусный тур</p>
+                            <p class="slide__titles-place">Золотое кольцо Абхазии (из Адлера)</p>
+                        </div>
+                        <div class="slide__cost-and-time">
+                            <div class="flex-container flex-column">
+                                <div class="slide__cost-adult">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <span class="cost">1 618 ₽</span>
+                                </div>
+                                <span class="adult">Взрослый билет</span>
+                            </div>
+
+                            <div class="flex-container flex-column">
+                                <div class="slide__cost-kid">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <span class="cost">1 412 ₽</span>
+                                </div>
+                                <span class="kid">Детский билет</span>
+                            </div>
+
+                            <div class="slide__cost-time">
+                                <img src="./css/Exurcions/images/icons/time-blue.svg">
+                                <span class="time">2,5 часа</span>
+                            </div>
+                        </div>
+
+                        <div class="slide__text-and-line">
+                            <img src="./css/Exurcions/images/icons/vertical-line.svg">
+                            <p class="slide__text">Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес
+                                Спринтер (20 мест).
+                                По маршруту вас будет сопровождать профессиональный гид. Посадка на экскурсию
+                                осуществляется с вашего отеля или ближайшей автобусной остановки.
+                                Пересечение границы без пересадок...
+                            </p>
+                        </div>
+                        <div class="slide__button-box">
+                            <a href="" class="slide__link">
+                                <button class="slide__button">
+                                    Подробнее
+                                </button>
+                            </a>
+                            <img src="./css/Exurcions/images/icons/hearth.svg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="excursions-content__box">
+                    <img src="./css/Exurcions/images/exurcions-slide.png">
+                    <div class="excursions-content__slide">
+                        <div class="slide__titles">
+                            <p class="slide__titles-type">Автобусный тур</p>
+                            <p class="slide__titles-place">Золотое кольцо Абхазии (из Адлера)</p>
+                        </div>
+                        <div class="slide__cost-and-time">
+                            <div class="flex-container flex-column">
+                                <div class="slide__cost-adult">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <span class="cost">1 618 ₽</span>
+                                </div>
+                                <span class="adult">Взрослый билет</span>
+                            </div>
+
+                            <div class="flex-container flex-column">
+                                <div class="slide__cost-kid">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <span class="cost">1 412 ₽</span>
+                                </div>
+                                <span class="kid">Детский билет</span>
+                            </div>
+
+                            <div class="slide__cost-time">
+                                <img src="./css/Exurcions/images/icons/time-blue.svg">
+                                <span class="time">2,5 часа</span>
+                            </div>
+                        </div>
+
+                        <div class="slide__text-and-line">
+                            <img src="./css/Exurcions/images/icons/vertical-line.svg">
+                            <p class="slide__text">Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес
+                                Спринтер (20 мест).
+                                По маршруту вас будет сопровождать профессиональный гид. Посадка на экскурсию
+                                осуществляется с вашего отеля или ближайшей автобусной остановки.
+                                Пересечение границы без пересадок...
+                            </p>
+                        </div>
+                        <div class="slide__button-box">
+                            <a href="" class="slide__link">
+                                <button class="slide__button">
+                                    Подробнее
+                                </button>
+                            </a>
+                            <img src="./css/Exurcions/images/icons/hearth.svg">
+                        </div>
+                    </div>
+                </div>
+                <img class ="excursions__pages" src="./css/Exurcions/images/icons/pages.png" alt="pages">
             </div>
+
+                  
+            
         </section>
 
     </main>
 
-
+    <script src="./libs/uislider/nouislider.min.js"></script>
+    <script src="./js/components/range-slider.js"></script>
 </body>
 
 </html>
