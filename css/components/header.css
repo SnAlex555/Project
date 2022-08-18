@@ -112,9 +112,10 @@
 
 .header__social-links{
     transform:translate(87%, -77%);
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 14px;
-}
+} 
 
 .header__social-links:hover{
     color: var(--yellow);

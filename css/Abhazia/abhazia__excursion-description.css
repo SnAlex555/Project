@@ -1,0 +1,135 @@
+.abhazia__excursion-description{
+    margin-top: 150px;
+    width: 1120px;
+    height: 188px;
+    display: flex;
+}
+
+.abhazia__excursion-text{
+    width: 808px;
+    height: 119px;
+    padding-top: 40px;
+    margin-left: 160px;
+}
+
+.abhazia__excursion-prices{
+    margin-left: 115px;
+    display: flex;
+    padding-top: 61px;
+    position: relative;
+}
+
+.abhazia__cost{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499DD;
+    padding-left:14px;
+}
+
+.abhazia__adult{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+    padding-top: 5px;
+}
+
+.abhazia__kid{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+    padding-top: 5px;
+}
+
+.abhazia__time{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499DD;
+    padding-left: 9px;
+}
+
+.abhazia__cost-adult{
+    width: 135px;
+    height: 51px;
+    padding-left: 5px;
+    padding-top:25px ;
+    display: flex;
+    align-items: center;
+}
+
+.abhazia__cost-kid{
+    width: 135px;
+    height: 51px;
+    padding-left: 8px;
+    padding-top:25px ;
+    display: flex;
+    align-items: center;
+}
+
+
+.abhazia__cost-time{
+    width: 153px;
+    height: 29px;
+    padding-top: 35px;
+    padding-left:10px;
+}
+
+.abhazia__prices-box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    height: 100px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    margin-left: 74px;
+    z-index: 1;
+}
+
+.abhazia__prices-box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    height: 100px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    margin-left: 74px;
+    z-index: 1;
+}
+
+.abhazia__prices-box3{
+    width: 160px;
+    height: 100px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    margin-left: 74px;
+    z-index: 1;
+}
+
+.abhazia__sun-top1{
+    position: absolute;
+    transform: translate(59px, -16px);
+}
+.abhazia__sun-top2{
+    position: absolute;
+    transform: translate(294px, -16px);
+}
+.abhazia__sun-top3{
+    position: absolute;
+    transform: translate(528px, -17px);
+}
