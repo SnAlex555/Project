@@ -1,0 +1,100 @@
+.abhazia__additional-expenses{
+    margin-top:170px;
+    width: 1690px;
+    height: 236px;
+}
+
+.abhazia__expenses-box1{
+    width: 160px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    z-index:1;
+}
+.abhazia__expenses-box2{
+    width: 180px;
+    height: 100px;  
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    z-index:1;
+}
+.abhazia__expenses-box3{
+    width: 220px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    z-index:1;
+}
+.abhazia__expenses-box4{
+    width: 210px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    z-index:1;
+}
+.abhazia__expenses-box5{
+    width: 160px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:1;
+}
+
+.abhazia__expenses{
+    margin-top: 140px;
+    margin-left: 160px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.expenses__cost{
+    display:flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.abhazia__place{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px
+}
+
+.abhazia__sun-bottom1{
+    position: absolute;
+    transform: translate(-15px, -17px);
+}
+.abhazia__sun-bottom2{
+    position: absolute;
+    transform: translate(295px, -17px);
+}
+.abhazia__sun-bottom3{
+    position: absolute;
+    transform: translate(625px, -17px);
+}
+.abhazia__sun-bottom4{
+    position: absolute;
+    transform: translate(995px, -17px);
+}
+.abhazia__sun-bottom5{
+    position: absolute;
+    transform:translate(1355px, -17px);
+}

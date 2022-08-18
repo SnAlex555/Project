@@ -1,6 +1,22 @@
 .calendar{
-    width: 1280px;
+    width: 1900px;
     height: 877px;
     margin-top: 150px;
 }
 
+.calendar__section-title{
+    position: absolute;
+    transform: translate(1400px, -980px);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #0499DD;
+    margin-right: 160px
+}
+
+.calendar__wrapper{
+    position: relative;
+}

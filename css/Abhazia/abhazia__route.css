@@ -1,0 +1,41 @@
+.abhazia__route{
+    margin-top: 500px;
+    height: 653px;
+    display: flex;
+}
+
+.abhazia__route-text-block{
+    width: 850px;
+    height: 653px;
+}
+
+.abhazia__route-list1{
+    margin-top: 90px;
+    margin-left: 160px;
+}
+
+.abhazia__route-list2-description{
+    margin-left: 198px;
+    margin-top: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+}
+
+.abhazia__route-list2{
+    margin-top: 40px;
+    margin-left: 160px;
+}
+
+.abhazia__route-list-text{
+    padding-left: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+}
