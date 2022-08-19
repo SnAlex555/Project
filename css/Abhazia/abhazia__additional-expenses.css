@@ -54,7 +54,7 @@
 }
 
 .abhazia__expenses{
-    margin-top: 140px;
+    margin-top: 110px;
     margin-left: 160px;
     display: flex;
     justify-content: space-between;
@@ -78,23 +78,23 @@
     line-height: 17px
 }
 
-.abhazia__sun-bottom1{
+.abhazia__sun-expenses1{
     position: absolute;
     transform: translate(-15px, -17px);
 }
-.abhazia__sun-bottom2{
+.abhazia__sun-expenses2{
     position: absolute;
     transform: translate(295px, -17px);
 }
-.abhazia__sun-bottom3{
+.abhazia__sun-expenses3{
     position: absolute;
     transform: translate(625px, -17px);
 }
-.abhazia__sun-bottom4{
+.abhazia__sun-expenses4{
     position: absolute;
     transform: translate(995px, -17px);
 }
-.abhazia__sun-bottom5{
+.abhazia__sun-expenses5{
     position: absolute;
     transform:translate(1355px, -17px);
 }

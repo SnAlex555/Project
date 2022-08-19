@@ -1,0 +1,103 @@
+.abhazia__booking-tour{
+    margin-top: 150px;
+}
+
+.abhazia__booking-wrapper{
+    display: flex;
+}
+
+.abhazia__booking-block{
+    margin-left: 110px;
+    margin-top: 250px;
+}
+
+.abhazia__booking-section-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499DD;
+}
+
+.abhazia__booking-date{
+    margin-top: 90px;
+    width: 360px;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.abhazia__booking-adult{
+    margin-top: 20px;
+    width: 360px;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}  
+
+.abhazia__booking-kid{
+    margin-top: 20px;
+    width: 360px;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.abhazia__booking-img{
+    margin-right: 25px;
+}
+
+.abhazia__booking-p{
+    padding-left: 25px;
+}
+
+.button__link-abhazia-booking{
+    width: 265px;
+    height: 50px;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.button__link-abhazia-booking:hover{
+    color: var(--yellow);
+    cursor: pointer
+}
+
+.abhazia-booking__link{
+    text-decoration: none;
+}
+
+.abhazia-booking__link:hover{
+    color:var(--yellow);
+    transition: color .3s;
+}
+
+.abhazia-booking__button-and-hearth{
+    display: flex;
+    margin-top: 40px;
+}
+
+.abhazia-booking-button__img{
+    padding-left: 45px;
+}
+

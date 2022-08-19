@@ -28,9 +28,12 @@
 @import url('./Abhazia/calendar.css');
 @import url('./Abhazia/abhazia__route.css');
 @import url('./Abhazia/abhazia__additional-expenses.css');
-@import url('.');
-@import url('.');
-@import url('.');
+@import url('./Abhazia/аbhazia__information.css');
+@import url('./Abhazia/аbhazia__gallery.css');
+@import url('./Abhazia/аbhazia__feedbacks.css');
+@import url('./Abhazia/abhazia__booking-tour.css');
+
+
 
 
 

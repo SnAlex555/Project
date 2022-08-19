@@ -121,15 +121,15 @@
     z-index: 1;
 }
 
-.abhazia__sun-top1{
+.abhazia__sun-prices1{
     position: absolute;
     transform: translate(59px, -16px);
 }
-.abhazia__sun-top2{
+.abhazia__sun-prices2{
     position: absolute;
     transform: translate(294px, -16px);
 }
-.abhazia__sun-top3{
+.abhazia__sun-prices3{
     position: absolute;
     transform: translate(528px, -17px);
 }

@@ -1,6 +1,11 @@
 .gallery__main{
     margin-top: 150px;
 }
+
+.gallery__links{
+    display: flex;
+}
+
 .gallery__wrapper{
     margin-top: 90px;
     margin-left: 235px;
@@ -10,7 +15,6 @@
     display: flex;
     justify-content: center;
 }
-
 .main__section-title{
     margin-left: 160px;
     color: var(--section-title-color);
@@ -30,7 +34,7 @@
     line-height: 15px;
     text-decoration-line: underline;
     color: var(--black);
-    margin-left: 1658px;
+    margin-left: 1390px;
     margin-right: 160px;
 }
 

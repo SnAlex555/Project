@@ -1,0 +1,118 @@
+.аbhazia__information{
+    margin-top: 150px;
+    width: 1120px;
+    height: 480px;
+}
+
+.аbhazia__information-block1{
+    margin-top: 90px;
+    margin-left: 160px;
+}
+
+.аbhazia__information-block2{
+    margin-top: 90px;
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.аbhazia__information-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0499DD;
+    margin-left: 40px;
+    width: 455px;
+    height: 44px;
+}
+.аbhazia__information-description{
+    margin-bottom: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.аbhazia__information-box1{
+    display: flex;
+    position: relative;
+}
+
+.аbhazia__information-box2{
+    margin-top: 45px;
+    display: flex;
+}
+
+.аbhazia__information-kids{
+    margin-top: 20px;
+    margin-left: 90px;
+    width:672px;
+    height: 68px;
+}
+
+.abhazia__document-information1{
+    position: absolute;
+    transform: translate(14px, -31px);
+}
+
+.abhazia__document-information2{
+    position: absolute;
+    transform: translate(14px, -31px);
+}
+
+.аbhazia__information-attention1{
+    width: 360px;
+    height: 130px;
+    background: #EDEDED;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.аbhazia__information-attention2{
+    width: 360px;
+    height: 130px;
+    background: #EDEDED;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.аbhazia__information-block2{
+    margin-top: 110px;
+    margin-left: 410px;
+}
+
+.аbhazia__attention-text1{
+    width: 275px;
+    height: 51px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+}
+.аbhazia__attention-text2{
+    width: 275px;
+    height: 85px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+
+}
+
+.аbhazia__attention-text1 span{
+    font-size: 18px;
+}
+    
