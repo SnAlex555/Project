@@ -80,7 +80,7 @@
     margin-right: 35px;
 }
 
-.form__radio-btn{
+/* .form__radio-btn{
     margin: 7px;
     display: inline-block;
 }
@@ -104,7 +104,7 @@
 
 .form__radio-btn label:hover {
 	color:#0499DD;;
-}
+} */
 
 .filter__link{
     text-decoration: none;
