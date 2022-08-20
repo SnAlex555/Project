@@ -20,3 +20,8 @@
 .calendar__wrapper{
     position: relative;
 }
+
+.calendar__img{
+    position: absolute;
+    transform: translate(927px, -860px);
+}

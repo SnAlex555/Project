@@ -1,16 +1,16 @@
-const secondSwiper = new Swiper('.swiper2', {
-    direction:'horizontal',
-    slidesPerView: 2,
-    spaceBetween: 15,
-    loop: true,
+var secondswiper = new Swiper('.swiper2', {
+  direction:'horizontal',
+  slidesPerView: 2.5,
+  spaceBetween: 30,
+  loop: true,
   
-    pagination: {
-      el: '.swiper2-pagination',
-      type:'progressbar',
+  pagination: {
+    el: '.swiper-pagination',
+    type:'progressbar',
     },
   
-    navigation: {
-      nextEl: '.swiper2-button-next',
-      prevEl: '.swiper2-button-prev',
+  navigation: {
+    nextEl: '.swiper-button-next2',
+    prevEl: '.swiper-button-prev2',
     },
   });

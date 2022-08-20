@@ -97,7 +97,12 @@
     margin-top: 40px;
 }
 
-.abhazia-booking-button__img{
+.abhazia-booking-button__svg{
     padding-left: 45px;
+    background-color: transparent;
+    border:none;
 }
 
+.abhazia-booking-button__svg:hover svg path{
+    stroke:#0499DD;
+  }

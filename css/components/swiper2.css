@@ -1,45 +1,7 @@
 .swiper2{
-    width: 1500px;
+    width: 1850px;
     height: 550px;
-    margin-left: 270px;
+    margin-left: 50px;
     margin-top: 90px;
-}
 
-.swiper2-horizontal>.swiper2-pagination-progressbar, .swiper2-pagination-progressbar.swiper2-pagination-horizontal{
-    width: 90%;
-    height: 4px;
-    left: 168px;
-    top: 382px;
-    background: #D4D4D4;
-} 
-
-
-.swiper2-button-prev{
-    position: absolute;
-    top: 2900px;
-    left: 160px;
-    color:#D4D4D4;
-    color:#D4D4D4;
-}
-
-.swiper2-button-next{
-    position: absolute;
-    top: 3000px;
-    left: 160px;
-    color:#D4D4D4;
-    margin-left: 62px;
-    color:#D4D4D4;
-}
-    
-
-.swiper2-pagination-progressbar {
-    background: #0499DD;
-    position: absolute;}
-
-.swiper2-button-prev:hover{
-    color: #0499DD;
-}
-
-.swiper2-button-next:hover{
-    color: #0499DD;
 }

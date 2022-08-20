@@ -1,29 +1,6 @@
-.feedbacks{
-    margin-top: 180px;
-    margin-bottom: 90px;
-}
-
-.feedbacks__links{
-    display: flex;
-}
-
-.feedbacks__watch-all{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-    text-decoration-line: underline;
-    color: var(--black);
-    margin-left: 1395px;
-    margin-right: 160px;
-}
-
-.feedbacks__section-box1{
-    width: 740px;
-    height: 322px;
-    background-color:var(--blocks-color) ;
-    position: relative;
+.аbhazia__feedbacks{
+    width:100%;
+    margin-top: 150px;
 }
 
 .feedbacks__section-box1{

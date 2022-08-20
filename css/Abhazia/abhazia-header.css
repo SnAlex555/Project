@@ -2,6 +2,7 @@
     background-image: url('../Abhazia/images/abhazia-header.png');
     background-size: cover;
     height:896px;
+    width:100%;
     background-repeat: no-repeat;
 }
 
@@ -67,6 +68,14 @@
     transition: color .3s;
 }
 
-.svg__header-buttons{
-    margin-left: 15px
+.svg__header-button{
+    margin-left: 15px;
+    background-color: transparent;
+    border:none;
+    opacity: 0.3;
 }
+
+.svg__header-button:hover svg path{
+    stroke:#0499DD;
+  }
+

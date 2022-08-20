@@ -8,7 +8,7 @@
 
 @import url('./components/header.css');
 @import url('./components/header-mobile.css');
-@import url('./components/popular__exursions.css');
+@import url('./components/popular-exursions.css');
 @import url('./components/swiper1.css');
 @import url('./components/about-us.css');
 @import url('./components/types-of-tours.css');
@@ -19,21 +19,19 @@
 @import url('./components/footer.css');
 
 @import url('./Exurcions/excursions-header.css');
-@import url('./Exurcions/excursions__top-filter.css');
-@import url('./Exurcions/excursions-content__filter.css');
-@import url('./Exurcions/excursions-content__out-tours.css');
+@import url('./Exurcions/excursions-top-filter.css');
+@import url('./Exurcions/excursions-content-filter.css');
+@import url('./Exurcions/excursions-content-out-tours.css');
 
 @import url('./Abhazia/abhazia-header.css');
-@import url('./Abhazia/abhazia__excursion-description.css');
+@import url('./Abhazia/abhazia-excursion-description.css');
 @import url('./Abhazia/calendar.css');
-@import url('./Abhazia/abhazia__route.css');
-@import url('./Abhazia/abhazia__additional-expenses.css');
-@import url('./Abhazia/аbhazia__information.css');
-@import url('./Abhazia/аbhazia__gallery.css');
-@import url('./Abhazia/аbhazia__feedbacks.css');
-@import url('./Abhazia/abhazia__booking-tour.css');
-
-
+@import url('./Abhazia/abhazia-route.css');
+@import url('./Abhazia/abhazia-additional-expenses.css');
+@import url('./Abhazia/аbhazia-information.css');
+@import url('./Abhazia/аbhazia-gallery.css');
+@import url('./Abhazia/аbhazia-feedbacks.css');
+@import url('./Abhazia/abhazia-booking-tour.css');
 
 
 

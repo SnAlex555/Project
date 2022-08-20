@@ -1,13 +1,13 @@
 .excursions__content{
-    margin-top: 150px;
+    margin-top: 40px;
     background-color:var(--pages--main-color);
     display: flex;
 
 }
 .excursions-content__filter{
     width: 295px;
-    height: 1039px;
-    margin-left:360px;
+    height: 1200px;
+    margin-left:380px;
     background-color:var(--pages--main-blocks-color);
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
@@ -30,6 +30,33 @@
     height: 102px;
     margin-top: 30px;
     padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+}
+
+.filter__peoples{
+    width: 300px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+}
+
+.filter__place{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+}
+
+.filter__duration{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+}
+
+.filter__date{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
 }
 
 .filter__title{
@@ -39,27 +66,23 @@
     font-size: 14px;
     line-height: 17px;
     color: #282828;
-
 }
 
 .filter__line{
-    padding-left: 35px;
-    padding-top: 45px;
+  margin-top: 40px;
 }
 
 .filter__title-and-svg{
     display: flex;
-    justify-content: space-between
-}
-
-.filter__peoples{
-    padding: 35px;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .form__radio-btn{
     margin: 7px;
     display: inline-block;
-
 }
 
 .form__radio-btn input[type=radio]{
@@ -71,23 +94,16 @@
     background: #FFFFFF;
     border: 1px solid #EDEDED;
     border-radius: 40px;
+    width: 73px;
+    height: 30px;
 }
- 
+
 .form__radio-btn input[type=radio]:checked + label {
 	background: #0499DD;
 }
 
 .form__radio-btn label:hover {
 	color:#0499DD;;
-}
- 
-
-
-
-
-
-.filter__button-box{
-
 }
 
 .filter__link{
@@ -104,7 +120,8 @@
     width: 225px;
     height: 40px;
     border-radius: 40px;
-    margin-left: 40px;
+    margin-left: 35px;
+    margin-top: 40px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -131,9 +148,63 @@
     padding-left: 6px;
 }
 
+.place__label-duration-date{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #282828;
+    display: inline-block;
+	cursor: pointer;
+	position: relative;
+}
+
+.place__label-duration-date::before{
+    display: inline-block;
+	width: 17px;
+	height: 18px;
+	position: absolute;
+	left: 0;
+	bottom: 1px
+}
+
+.place__input[type=radio]:checked + label:before{
+    background: #0499DD;
+}
 
 
 
 
+
+
+.filter__minus{
+    display: none;
+}
+
+.filter__minus--active{
+    display: block;
+}
+
+.filter__cost{
+    display: none;
+}
+
+.filter__cost--active{
+    display: block;
+}
+
+.filter__plus--active{
+    display: none;
+}
+/* 
+.filter__peoples{
+    display: none;
+}
+
+.filter__peoples--active{
+    display: block;
+}
+ */
 
 

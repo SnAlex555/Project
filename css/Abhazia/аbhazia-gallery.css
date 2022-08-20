@@ -1,0 +1,42 @@
+.аbhazia__gallery{
+    margin-top: 150px;
+    width:100%
+}
+
+.gallery__container{
+   
+    display: grid;
+    grid-template-columns: 216px 266px 362px 266px 216px;
+    grid-template-rows: 280px 123px 123px;
+    grid-gap: 20px;
+    grid-template-areas: 
+        'item-1 item-1 item-2 item-3 item-4'
+        'item-5 item-6 item-2 item-7 item-7'
+        'item-5 item-8 item-2 item-7 item-7'
+    ;
+}
+
+.item-1 {
+    grid-area: item-1;
+}
+.item-2 {
+    grid-area: item-2;
+}
+.item-3 {
+    grid-area: item-3;
+}
+.item-4 {
+    grid-area: item-4;
+}
+.item-5 {
+    grid-area: item-5;
+}
+.item-6 {
+    grid-area: item-6;
+}
+.item-7 {
+    grid-area: item-7;
+}
+.item-8 {
+    grid-area: item-8;
+}

@@ -20,11 +20,13 @@ footer{
     justify-content: space-evenly;
     margin-right: 160px;
 }
+
 .footer__baloon{
     margin-top: 30px;
     width: 80px;
     height: 114px;
 }
+
 .footer__navigation-list{
     margin-top: 53px;
     margin-bottom: 53px;
@@ -51,6 +53,7 @@ footer{
 }
 
 .footer__contact-link{
+    margin-left: 10px;
     text-decoration: none;
     color:var(--footer-items);
 }
@@ -71,13 +74,13 @@ footer{
 }
 
 .footer__links{
-    margin-top: 53px;
+    margin-top: 56px;
     display: flex;
     flex-direction: column;
 }
 
 .footer__social-links{
-    margin-top: 23px;
+    margin-top: 27px;
 }
 
 .footer__icon{
@@ -89,4 +92,22 @@ footer{
     transform: scale(1.5);
     transition: fill 0.3s linear;
     transition: transform 0.3s linear;
+}
+
+
+.footer__contacts-box1{
+    display: flex;
+    align-items: center;
+}
+
+.footer__contacts-box2{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.footer__contacts-box3{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
 }

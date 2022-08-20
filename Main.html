@@ -391,7 +391,7 @@
 
             <div class="types-of-tours__discription-button">
                 <p class="types-of-tours__discription-bottom">Выбирайте на нашем сайте экскурсию, которая
-                    подходит именно вам и <br>записывайтесь онлайн без очередей, просто и быстро!
+                    подходит именно вам и записывайтесь онлайн без очередей, просто и быстро!
                 </p>
                 <a class="types-of-tours__link-button" href="#">
                     <button class="button__link">
@@ -406,7 +406,20 @@
                 <h2 class="main__section-title">Галерея</h2>
                 <a class="gallery__watch-all" href="" target="_blank">Смотреть все</a>
             </div>
-            <div class="gallery__wrapper">
+
+            <div class="gallery__container">
+                <img class="gallery__item item-1" src="./css/images/gallery/mountains-sea.jpg">
+                <img class="gallery__item item-2" src="./css/images/gallery/girl-waterpool.jpg">
+                <img class="gallery__item item-3" src="./css/images/gallery/guys-on-bike.jpg">
+                <img class="gallery__item item-4" src="./css/images/gallery/tower-on-mountains.jpg">
+                <img class="gallery__item item-5" src="./css/images/gallery/girl-on-horse.jpg">
+                <img class="gallery__item item-6" src="./css/images/gallery/pass-under-the-mountain.jpg">
+                <img class="gallery__item item-7" src="./css/images/gallery/sea-city-mountains.jpg">
+                <img class="gallery__item item-8" src="./css/images/gallery/city-on-mountains.jpg">
+                
+            </div>
+
+            <!-- <div class="gallery__wrapper">
                 <div class="flex-container flex-column">
                     <img class="gallery__item" src="./css/images/gallery/mountains-sea.jpg" alt="mountains-sea"
                         width=503.48px height=280.5px>
@@ -438,7 +451,7 @@
                     <img class="gallery__item" src="./css/images/gallery/sea-city-mountains.jpg"
                         alt="sea-city-mountains" width=503.48px height=280.5px>
                 </div>
-            </div>
+            </div> -->
 
         </section>
 
@@ -550,15 +563,15 @@
                     
                     </div>
                     
-                    <div class="swiper2-pagination"></div>
-                  
-            </div>   
-
-            <div class="swiper2__buttons">
-                <div class="swiper2-button-prev"></div>
-                <div class="swiper2-button-next"></div>
-            </div>
-        
+                    <div class="swiper-pagination"></div>  
+                    
+                </div>  
+                <div class="swiper__buttons">
+                    <div class="swiper-button-prev2"></div>
+                    <div class="swiper-button-next2"></div>
+                </div>
+            
+                
         </section>
        
 
@@ -612,38 +625,45 @@
             <div class="footer__container2">
 
                 <div class="footer__contacts">
-                    
-                    <a href="tel:+79649441874" target="_blank" class="footer__contact-link">
+                    <div class="footer__contacts-box1">
                         <svg xmlns="http://www.w3.org/2000/svg" class="footer__contact-icon" width="18px" height="18px">
                             <use xlink:href="./css/images/icons/footer-icons/sprite.svg#viber"></use>
                         </svg>
-                        <span> +7 964 944 18 74<span>
+                        <a href="tel:+79649441874" target="_blank" class="footer__contact-link">
+                        <span> +7 964 944 18 74</span>
                     </a>
-                
-                    <a href="https://web.telegram.org/z/" target="_blank" class="footer__contact-link">
+                    </div>
+
+                    <div class="footer__contacts-box2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="footer__contact-icon" width="18px" height="18px">
                             <use xlink:href="./css/images/icons/footer-icons/sprite.svg#telegram"></use>
                         </svg>
+                    <a href="https://web.telegram.org/z/" target="_blank" class="footer__contact-link">
                         <span>+7 918 919 98 28</span>
                     </a>
-                    
-                    <a href="https://web.telegram.org/k/" target="_blank" class="footer__contact-link">
+                    </div>
+
+                    <div class="footer__contacts-box3">
                         <svg xmlns="http://www.w3.org/2000/svg" class="footer__contact-icon" width="18px" height="18px">
                             <use xlink:href="./css/images/icons/footer-icons/sprite.svg#telegram"></use>
                         </svg>
+                    <a href="https://web.telegram.org/k/" target="_blank" class="footer__contact-link">
                         <span>Телеграм-бот PeroTravel</span>
                     </a>
-                    
+                    </div>
                 </div>
 
 
                 <div class="footer__links">
-                    <a href="mailto:office@perotravel.ru" target="_blank" class="footer__contact-link">
+                    <div class="flex-container items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" class="footer__contact-icon" width="18px" height="18px">
                             <use xlink:href="./css/images/icons/footer-mail/sprite.svg#mail"></use>
                         </svg>
-                        <span>office@perotravel.ru</span>
-                    </a>
+                        <a href="mailto:office@perotravel.ru" target="_blank" class="footer__contact-link">
+                            <span>office@perotravel.ru</span>
+                        </a>
+                    </div>
+
                     <div class="footer__social-links">
                         <a href="https://www.vk.com" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" class="footer__icon">
