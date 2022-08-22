@@ -23,6 +23,10 @@
     margin-bottom: 40px;
 }
 
+.excursions-content-box__img{
+    border-radius: 10px 0px 0px 10px;
+}
+
 .excursions-content__box{
     display: flex;
     margin-left: 40px;

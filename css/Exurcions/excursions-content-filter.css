@@ -6,7 +6,7 @@
 }
 .excursions-content__filter{
     width: 295px;
-    height: 1200px;
+    height: 1245px;
     margin-left:380px;
     background-color:var(--pages--main-blocks-color);
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
@@ -28,18 +28,83 @@
 .filter__cost{
     width: 225px;
     height: 102px;
-    margin-top: 30px;
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 20px;
 }
 
+.filter__input-slider{
+    margin-top: 20px;
+}
+
+.filter__inputs{
+    width: 225px;
+    display: flex;
+    justify-content: space-between;
+}
+.filter__cost-input{
+    width: 110px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 40px;
+}
+
+/* Filter Peoples */
 .filter__peoples{
     width: 300px;
-    padding-left: 35px;
+    padding-left: 25px;
     padding-right: 35px;
     padding-top: 20px;
 }
+
+.people__buttons{
+    width: 240px;
+    height: 120px;
+}
+
+.people__label-more{
+    width: 150px;
+    height: 30px;
+}
+
+.people__label-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #282828;
+}
+
+.form__radio-btn input[type=radio_people]{
+    display:none
+}
+  
+.form__radio-btn label{
+    display: inline-block;
+    cursor: pointer;
+    margin-left:3px;
+    margin-top:7px;
+    padding: 5px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 40px;
+    user-select:none;
+    text-align:center;
+    width: 73px;
+    height: 30px
+  }
+  
+.form__radio-btn .people__input[type=radio_people]:checked + label {
+    background: #0499DD
+  }
+  
+.form__radio-btn label:hover {
+    border: 1px solid #0499DD;
+  }
+
+  /*  */
 
 .filter__place{
     padding-left: 35px;
@@ -69,7 +134,7 @@
 }
 
 .filter__line{
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .filter__title-and-svg{
@@ -82,38 +147,83 @@
 
  /* radio */
 .place__input{
-    position: relative;
     margin-bottom: 5px;
 }
 
 .place__label-duration-date{
     padding-left: 10px;
     margin-bottom: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #282828;
+    display: inline-block;
+	cursor: pointer;
+	position: absolute;
 }
 
-.place__label-duration-date::before{
+input[type="radio"]:checked, 
+input[type="radio"]:not(:checked) 
+{
+position: absolute;
+  left: -9999px;
+}
+  
+input[type="radio"]:checked + label, 
+input[type="radio"]:not(:checked) + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label:before, 
+input[type="radio"]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
     width: 15px;
     height: 15px;
-    background: #FFFFFF;
-    border: 1px solid #D4D4D4;
+    border: 1px solid  #D4D4D4;
+    background-color: #ffffff;
 }
-.place__label-duration-date::after{
+
+input[type="radio"]:checked + label:before, 
+input[type="radio"]:not(:checked) + label:before {
+    border-radius: 100%;
+}
+
+input[type="radio"]:checked + label:after, 
+input[type="radio"]:not(:checked) + label:after {
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+input[type="radio"]:checked + label:after, 
+input[type="radio"]:not(:checked) + label:after {
+    left: 5px;
+    top: 5px;
     width: 7px;
     height: 7px;
-    background: #0499DD;
-    border: 1px solid ;
+    border-radius: 100%;
+    background:#0499DD;
 }
 
-.place__input:checked +.place__label-duration-date::before{
-
+input[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
 }
 
-.place__input:checked +.place__label-duration-date::after{
-    background: #0499DD;
+input[type="radio"]:checked + label:after {
+    opacity: 1;
 }
-/*  */
-
-
 
 .filter__link{
     text-decoration: none;
@@ -149,44 +259,27 @@
 
 .filter__bottom{
     display: flex;
-    justify-content: center;
+    align-items: center;
     margin-top: 12px;
+    margin-left: 45px;
 }
 
 .filter__button-description{
     padding-left: 6px;
 }
 
-.place__label-duration-date{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-    color: #282828;
-    display: inline-block;
-	cursor: pointer;
-	position: relative;
+.filter__bottom-button__svg{
+    background-color: transparent;
+    border:none;
+    opacity: 0.3;
 }
 
-.place__label-duration-date::before{
-    display: inline-block;
-	width: 17px;
-	height: 18px;
-	position: absolute;
-	left: 0;
-	bottom: 1px
-}
+.filter__bottom-button__svg:hover svg path{
+    stroke:#0499DD;
+  }
 
-.place__input[type=radio]:checked + label:before{
-    background: #0499DD;
-}
-
-
-
-
-
-
+/* JS */
+/* cost */
 .filter__minus{
     display: none;
 }
@@ -206,7 +299,10 @@
 .filter__plus--active{
     display: none;
 }
-/* 
+/*  */
+
+
+/* peoples */
 .filter__peoples{
     display: none;
 }
@@ -214,6 +310,90 @@
 .filter__peoples--active{
     display: block;
 }
- */
+
+.filter__plus-peoples--active{
+    display: none;
+}
+
+.filter__minus-peoples{
+  display: none;  
+}
+
+.filter__minus-peoples--active{
+  display: block;  
+}
+/*  */
 
 
+/*place */
+
+.filter__place{
+    display: none;
+}
+
+.filter__place--active{
+    display: block;
+}
+
+.filter__plus-place--active{
+    display: none;
+}
+
+.filter__minus-place{
+    display: none; 
+}
+
+.filter__minus-place--active{
+    display: block;  
+  }
+
+/* */
+
+
+/* duration */
+
+.filter__duration{
+    display: none;
+}
+
+.filter__duration--active{
+    display: block;
+}
+
+.filter__plus-duration--active{
+    display: none;
+}
+
+.filter__minus-duration{
+    display: none; 
+}
+
+.filter__minus-duration--active{
+    display: block; 
+}
+
+/*  */
+
+
+/*date*/
+.filter__date{
+    display: none;
+}
+
+.filter__date--active{
+    display: block;
+}
+
+.filter__plus-date--active{
+    display: none;
+}
+
+.filter__minus-date{
+    display: none; 
+}
+
+.filter__minus-date--active{
+    display: block; 
+}
+
+/*  */

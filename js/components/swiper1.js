@@ -5,12 +5,12 @@ var swiper = new Swiper('.swiper1', {
   loop: true,
 
   pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-pagination1',
     type:'progressbar',
   },
 
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.swiper-button-next1',
+    prevEl: '.swiper-button-prev1',
   },
 });

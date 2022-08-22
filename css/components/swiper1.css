@@ -10,17 +10,16 @@
     left: 168px;
     top: 546px;
     background: #D4D4D4;
-}
+} 
 
-
-.swiper-button-prev{
+.swiper-button-prev1{
     position: absolute;
     top: 1734px;
     left: 160px;
     color:#D4D4D4;
 }
 
-.swiper-button-next{
+.swiper-button-next1{
     position: absolute;
     top: 1734px;
     left: 160px;

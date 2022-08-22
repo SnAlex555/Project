@@ -5,7 +5,7 @@ var secondswiper = new Swiper('.swiper2', {
   loop: true,
   
   pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-pagination2',
     type:'progressbar',
     },
   

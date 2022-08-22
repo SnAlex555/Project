@@ -19,6 +19,9 @@
     margin-right: 160px;
 }
 
+.feedbacks-section-content__img{
+    border-radius: 10px;
+}
 .feedbacks__section-box1{
     width: 740px;
     height: 322px;
