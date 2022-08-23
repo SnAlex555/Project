@@ -1,34 +1,43 @@
 .swiper2{
-    width: 1850px;
-    height: 550px;
-    margin-left: 50px;
+    width: 1743px;
+    height: 400px;
+    margin-left: 160px;
     margin-top: 90px;
 }
 
+.swiper2-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal {
+    width: 84%;
+    height: 4px;
+    left: 301px;
+    top: 5113px;
+    background: #D4D4D4;
+} 
+
 .swiper-button-prev2{
     position: absolute;
-    top: 5276px;
+    top: 5116px;
     left: 160px;
+    color:#D4D4D4;
     color:#D4D4D4;
 }
 
 .swiper-button-next2{
     position: absolute;
-    top: 5276px;
+    top: 5116px;
     left: 160px;
     color:#D4D4D4;
     margin-left: 62px;
+    color:#D4D4D4;
 }
 
-.swiper-pagination-progressbar {
+.swiper2-pagination-progressbar {
     background: #0499DD;
-    position: absolute;
+    position: absolute;}
+
+.swiper2-button-prev:hover{
+    color: #0499DD;
 }
 
-.swiper-horizontal>.swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal {
-    width: 90%;
-    height: 4px;
-    left: 168px;
-    top: 5110px;
-    background: #D4D4D4;
+.swiper2-button-next:hover{
+    color: #0499DD;
 }

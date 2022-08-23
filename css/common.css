@@ -18,6 +18,11 @@
     align-items: center;
 }
 
+.baseline{
+    align-items: baseline;
+    padding-top: 20px;
+}
+
 a{
     text-decoration: none;
 }

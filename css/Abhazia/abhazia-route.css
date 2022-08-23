@@ -1,11 +1,11 @@
 .abhazia__route{
-    margin-top: 500px;
+    margin-top:  550px;
     height: 653px;
     display: flex;
 }
 
 .abhazia__route-text-block{
-    width: 850px;
+    width: 953px;
     height: 653px;
 }
 
@@ -38,4 +38,39 @@
     font-size: 14px;
     line-height: 17px;
     color: #282828;
+}
+
+.abhazia__route-slider{
+    margin-left: 200px;
+    width: 770px;
+    height:650px
+}
+
+.abhazia__route-description{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFC700;
+    padding-top: 530px;
+    padding-left: 25px;
+}
+
+.abhazia__route-slider-box1{
+    width:413px;
+    height:570px;
+    background-image: url('./images/route-swiper/гагры.jpg');
+}
+
+.abhazia__route-slider-box2{
+    width:413px;
+    height:570px;
+    background-image: url('./images/route-swiper/абхазия.jpg')
+}
+
+.abhazia__route-slider-box3{
+    width:413px;
+    height:570px;
+    background-image: url('./images/route-swiper/island.jpeg');
 }

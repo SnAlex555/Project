@@ -4,6 +4,8 @@
     background-size: cover;
     height:789px;
     background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1903px;
 }
 
 .header__navigation{
@@ -17,9 +19,9 @@
 .header__navigation-list {
     display: flex;
     justify-content: space-between;
-    width: 403px;
+    max-width: 403px;
+    width: 100%;
     height: 17px;
-    margin-left: 1085px;
     margin-top: 46px;
     margin-right: 160px;
 }
@@ -36,6 +38,14 @@
     line-height: 17px;
     text-decoration: none;
     transition: color .3s;
+}
+
+.header__navigation-link--active{
+    color: var(--yellow);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;  
 }
 
 .header__navigation-link:hover {
@@ -92,26 +102,14 @@
     padding-top: 15px;
 }
 
-/*.header__vk{
-    margin-left: 1252px;
-    margin-top: 341px;
-    margin-bottom: 432px;
-    margin-right: 160px;
-}
-
-.header__insta{
-    margin-left:1252px ;
-    margin-top: 375px ;
-    margin-bottom: 386px;
-    margin-right: 160px;
-}*/
-
 .header__facebook{
     padding: 0 0 0 7px;
 }
 
 .header__social-links{
-    transform:translate(87%, -77%);
+    width: 40px;
+    height: 119px;
+    transform: translate(4255%, -67%);
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -175,6 +173,11 @@
    flex: 1 1 auto;
    justify-content: right;
    column-gap: 20px;
-   transform: translate(0%,30%);
+   transform:translate(0%,20%)
 }
 
+
+@media screen and (max-width:px )
+{
+    
+}

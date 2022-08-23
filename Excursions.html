@@ -5,25 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Travel Company,тур-оператор,лучшие тур-операторы">
+    <meta name="keywords" content="путешествия,отпуск на море,семейный отдых">
     <link rel="stylesheet" href="/libs/uislider/nouislider.min.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image/png" href="./css/images/favicon/favicon.png">
     <title>Excursions</title>
 </head>
 
 <body>
     <header class="excursions__header">
         <nav class="header__navigation">
-            <a href="">
-                <img class="header__logo" src="./css/images/icons/baloon_color.svg"></img>
+            <a href="./Main.html">
+                <img class="header__logo" src="./css/images/icons/baloon_color.svg" alt="header-logo"></img>
             </a>
 
 
             <ul class="header__navigation-list">
                 <li class="header__navigation-list-item">
-                    <a class="header__navigation-link" href="#">Главная</a>
+                    <a class="header__navigation-link" href="./Main.html">Главная</a>
                 </li>
                 <li class="header__navigation-list-item">
-                    <a class="header__navigation-link" href="#">Экскурсии</a>
+                    <a class="header__navigation-link--active" href="/Excursions.html">Экскурсии</a>
                 </li>
                 <li class="header__navigation-list-item">
                     <a class="header__navigation-link" href="#">Личный кабинет</a>
@@ -52,8 +55,8 @@
                         <p class="excursions__list-item">КАНЬОНИНГ</p>
                     </div>
                     <div class="excursions__lines">
-                        <img class="top" src="./css/Exurcions/images/icons/blue-line.png">
-                        <img class="bottom" src="./css/Exurcions/images/icons/grey-line.png">
+                        <img class="top" src="./css/Exurcions/images/icons/blue-line.png" alt="blue-line">
+                        <img class="bottom" src="./css/Exurcions/images/icons/grey-line.png" alt="grey-line">
                     </div>
                 </div>
                 <div class="excursions_top">
@@ -123,11 +126,64 @@
                         heigh="2px">
                 </div>
 
-                <div class="filter__peoples">
+                 <div class="filter__peoples">
                     <div class="people__buttons">
 
-                         <div class="form__radio-btn">
-                            <input class="people__input" type="radio_people" name="radio_people">
+                        <div class="buttons__people">
+                            <button class="button__button1">
+                                <p class="people__text">1 чел.</p>
+                            </button>
+        
+                            <button class="button__button2">
+                                <p class="people__text">2 чел.</p>
+                            </button>
+        
+                            <button class="button__button3">
+                                <p class="people__text">3 чел.</p>
+                            </button>
+                        </div>
+        
+                        <div class="buttons__people">
+                            <button class="button__button4">
+                                <p class="people__text">4 чел.</p>
+                            </button>
+        
+                            <button class="button__button5">
+                                <p class="people__text">5 чел.</p>
+                            </button>
+        
+                            <button class="button__button6">
+                                <p class="people__text">6 чел.</p>
+                            </button>
+                        </div>
+        
+                        <div class="buttons__people">
+                            <button class="button__button7">
+                                <p class="people__text">7 чел.</p>
+                            </button>
+                            
+                            <button class="button__button8">
+                                <p class="people__text">8 чел.</p>
+                            </button>
+        
+                            <button class="button__button9">
+                                <p class="people__text">9 чел.</p>
+                            </button>
+                        </div>
+            
+                        <div class="buttons__people">
+                            <button class="button__button10">
+                                <p class="people__text">10 чел.</p>
+                            </button>
+        
+                            <button class="button__button11">
+                                <p class="people__text">Более 10 чел.</p>
+                            </button>
+                        </div>
+                    
+
+                         <!-- <div class="form__radio-btn">
+                            <input class="people__input" type="radio_people" name="radio_people"> 
                             <label class="people__label" for="radio-1"><span class="people__label-text"> 1 чел.</span></label>
 
                             <input class="people__input" type="radio_people" name="radio_people">
@@ -157,18 +213,21 @@
                             <label class="people__label" for="radio-9"><span class="people__label-text"> 9 чел.</span></label>
                         </div>
 
-                        <!-- <div class="form__radio-btn">
+                        <div class="form__radio-btn">
                             <input class="people__input" type="radio_people" name="radio_people">
                             <label class="people__label" for="radio-10"><span class="people__label-text"> 10 чел.</span></label>
 
-                            <input class="people__input-more" type="radio_people" name="radio_people">
+                            <input class="people__input-more" type="radio_people" name="radio_people"> >
                             <label class="people__label-more" for="radio-11"><span class="people__label-text"> Более 10 чел.</span></label>
                         </div> -->
-                                            
-                    </div> 
-                    <img src="./css/Exurcions/images/icons/grey-line.svg" class="filter__line" alt="line" width="225px"
+                          
+                        <img src="./css/Exurcions/images/icons/grey-line.svg" class="filter__line" alt="line" width="225px"
                         height="5px">
-                </div>
+                    </div> 
+                    
+                   
+      
+                </div> 
 
                 <div class="filter__title-and-svg">
                     <h5 class="filter__title">Место</h5>
@@ -181,23 +240,23 @@
                 <div class="filter__place">
 
                         <div class="form__radio_btn2">
-                        <input class="place__input" type="radio" name="place-rb" id="rb1" > <label class="place__label-duration-date"for="rb1">Абхазия</label>
+                        <input class="place__input" type="radio" name="place-rb" id="rb1" > <label class="place__label-duration-date" for="rb1">Абхазия</label>
                         </div>
                         
                         <div class="form__radio_btn2">
-                        <input class="place__input" type="radio" name="place-rb" id="rb2"> <label class="place__label-duration-date"for="rb2">Красная поляна</label>
+                        <input class="place__input" type="radio" name="place-rb" id="rb2"> <label class="place__label-duration-date" for="rb2">Красная поляна</label>
                         </div>
                         
                         <div class="form__radio_btn2">
-                        <input class="place__input"type="radio" name="place-rb" id="rb3"> <label class="place__label-duration-date"for="rb3">Сочи</label>
+                        <input class="place__input"type="radio" name="place-rb" id="rb3"> <label class="place__label-duration-date" for="rb3">Сочи</label>
                         </div>
                         
                         <div class="form__radio_btn2">
-                        <input class="place__input"type="radio" name="place-rb" id="rb4"> <label class="place__label-duration-date"for="rb4">Адлер</label>
+                        <input class="place__input"type="radio" name="place-rb" id="rb4"> <label class="place__label-duration-date" for="rb4">Адлер</label>
                         </div>
                         
                         <div class="form__radio_btn2">
-                        <input class="place__input"type="radio" name="place-rb" id="rb5"> <label class="place__label-duration-date"for="rb5">Цикуны</label>
+                        <input class="place__input"type="radio" name="place-rb" id="rb5"> <label class="place__label-duration-date" for="rb5">Цикуны</label>
                         </div>
 
                     <img src="./css/Exurcions/images/icons/grey-line.svg" class="filter__line" alt="line" width="225px"
@@ -257,32 +316,32 @@
                 <div class="filter__date">
 
                     <div class="form__radio_btn4">
-                        <input class="duration__date" type="radio" name="date-rb" id="rb11"> <label class="place__label-duration-date"for="rb11">18.08.2022</label>
+                        <input class="duration__date" type="radio" name="date-rb" id="rb11"> <label class="place__label-duration-date" for="rb11">18.08.2022</label>
                     </div>
 
                     <div class="form__radio_btn4">
-                        <input class="duration__date" type="radio" name="date-rb" id="rb12"> <label class="place__label-duration-date"for="rb12">19.08.2022</label>
-                    </div>
-
-
-                    <div class="form__radio_btn4">
-                        <input class="duration__date" type="radio" name="date-rb" id="rb13"> <label class="place__label-duration-date"for="rb13">21.08.2022</label>
+                        <input class="duration__date" type="radio" name="date-rb" id="rb12"> <label class="place__label-duration-date" for="rb12">19.08.2022</label>
                     </div>
 
 
                     <div class="form__radio_btn4">
-                        <input class="duration__date" type="radio" name="date-rb" id="rb14"> <label class="place__label-duration-date"for="rb14">23.08.2022</label>
+                        <input class="duration__date" type="radio" name="date-rb" id="rb13"> <label class="place__label-duration-date" for="rb13">21.08.2022</label>
                     </div>
 
 
                     <div class="form__radio_btn4">
-                        <input class="duration__date" type="radio" name="date-rb" id="rb15"> <label class="place__label-duration-date"for="rb15">26.08.2022</label>
+                        <input class="duration__date" type="radio" name="date-rb" id="rb14"> <label class="place__label-duration-date" for="rb14">23.08.2022</label>
+                    </div>
+
+
+                    <div class="form__radio_btn4">
+                        <input class="duration__date" type="radio" name="date-rb" id="rb15"> <label class="place__label-duration-date" for="rb15">26.08.2022</label>
                     </div>
 
                     <img src="./css/Exurcions/images/icons/grey-line.svg" class="filter__line" alt="line" width="225px"
                         height="5px">
                 </div>
-
+                
 
                 <div class="filter__button-box">
                     <a href="" class="filter__link">
@@ -291,7 +350,7 @@
                         </button>
                     </a>
                     <div class="filter__bottom">
-                        <button class="filter__bottom-button__svg">
+                        <button class="filter__bottom-svg">
                             <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.94975 11.8493L11.8492 1.94979M11.8492 11.8493L1.94975 1.94979" stroke="#D4D4D4" stroke-width="2" stroke-linecap="round"/>
                                 </svg>
@@ -317,7 +376,7 @@
                         <div class="slide__cost-and-time">
                             <div class="flex-container flex-column">
                                 <div class="slide__cost-adult">
-                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg" alt="cost-blue">
                                     <span class="cost">1 880 ₽</span>
                                 </div>
                                 <span class="adult">Взрослый билет</span>
@@ -325,20 +384,20 @@
 
                             <div class="flex-container flex-column">
                                 <div class="slide__cost-kid">
-                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg" alt="cost-blue">
                                     <span class="cost">1 300 ₽</span>
                                 </div>
                                 <span class="kid">Детский билет</span>
                             </div>
 
                             <div class="slide__cost-time">
-                                <img src="./css/Exurcions/images/icons/time-blue.svg">
+                                <img src="./css/Exurcions/images/icons/time-blue.svg" alt="time-blue">
                                 <span class="time">1,5 часа</span>
                             </div>
                         </div>
 
                         <div class="slide__text-and-line">
-                            <img src="./css/Exurcions/images/icons/vertical-line.svg">
+                            <img src="./css/Exurcions/images/icons/vertical-line.svg" alt="vertical-line">
                             <p class="slide__text">Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. 
                                 В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. 
                                 Lorem Ipsum не только успешно пережил без заметных изменений пять веков
@@ -351,13 +410,13 @@
                                     Подробнее
                                 </button>
                             </a>
-                            <img src="./css/Exurcions/images/icons/hearth.svg">
+                            <img src="./css/Exurcions/images/icons/hearth.svg" alt="heart">
                         </div>
                     </div>
                 </div>
 
                 <div class="excursions-content__box">
-                    <img class ="excursions-content-box__img " src="./css/Exurcions/images/exurcions-slide.jpg">
+                    <img class ="excursions-content-box__img " src="./css/Exurcions/images/exurcions-slide.jpg" alt="абхазия">
                     <div class="excursions-content__slide">
                         <div class="slide__titles">
                             <p class="slide__titles-type">Автобусный тур</p>
@@ -366,7 +425,7 @@
                         <div class="slide__cost-and-time">
                             <div class="flex-container flex-column">
                                 <div class="slide__cost-adult">
-                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg" alt="cost-blue">
                                     <span class="cost">1 618 ₽</span>
                                 </div>
                                 <span class="adult">Взрослый билет</span>
@@ -374,20 +433,20 @@
 
                             <div class="flex-container flex-column">
                                 <div class="slide__cost-kid">
-                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg" alt="cost-blue">
                                     <span class="cost">1 412 ₽</span>
                                 </div>
                                 <span class="kid">Детский билет</span>
                             </div>
 
                             <div class="slide__cost-time">
-                                <img src="./css/Exurcions/images/icons/time-blue.svg">
+                                <img src="./css/Exurcions/images/icons/time-blue.svg" alt="time-blue">
                                 <span class="time">2,5 часа</span>
                             </div>
                         </div>
 
                         <div class="slide__text-and-line">
-                            <img src="./css/Exurcions/images/icons/vertical-line.svg">
+                            <img src="./css/Exurcions/images/icons/vertical-line.svg" alt="vertical-line">
                             <p class="slide__text">Вас ждет путешествие по "Золотому Кольцу Абхазии" на Мерседес
                                 Спринтер (20 мест).
                                 По маршруту вас будет сопровождать профессиональный гид. Посадка на экскурсию
@@ -397,12 +456,12 @@
                         </div>
 
                         <div class="slide__button-box">
-                            <a href="" class="slide__link">
+                            <a href="./Abhazia.html" class="slide__link">
                                 <button class="slide__button">
                                     Подробнее
                                 </button>
                             </a>
-                            <img src="./css/Exurcions/images/icons/hearth-blue.svg">
+                            <img src="./css/Exurcions/images/icons/hearth-blue.svg" alt="heart-blue">
                         </div>
                     </div>
                 </div>
@@ -417,7 +476,7 @@
                         <div class="slide__cost-and-time">
                             <div class="flex-container flex-column">
                                 <div class="slide__cost-adult">
-                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg" alt="cost-blue">
                                     <span class="cost">1 620  ₽</span>
                                 </div>
                                 <span class="adult">Взрослый билет</span>
@@ -425,20 +484,20 @@
 
                             <div class="flex-container flex-column">
                                 <div class="slide__cost-kid">
-                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg" alt="cost-blue">
                                     <span class="cost">1 500 ₽</span>
                                 </div>
                                 <span class="kid">Детский билет</span>
                             </div>
 
                             <div class="slide__cost-time">
-                                <img src="./css/Exurcions/images/icons/time-blue.svg">
+                                <img src="./css/Exurcions/images/icons/time-blue.svg" alt="time-blue">
                                 <span class="time">12 часов</span>
                             </div>
                         </div>
 
                         <div class="slide__text-and-line">
-                            <img src="./css/Exurcions/images/icons/vertical-line.svg">
+                            <img src="./css/Exurcions/images/icons/vertical-line.svg" alt="vertical-line">
                             <p class="slide__text">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. 
                                 Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации 
                             </p>
@@ -449,7 +508,7 @@
                                     Подробнее
                                 </button>
                             </a>
-                            <img src="./css/Exurcions/images/icons/hearth.svg">
+                            <img src="./css/Exurcions/images/icons/hearth.svg" alt="heart">
                         </div>
                     </div>
                 </div>
@@ -464,7 +523,7 @@
                         <div class="slide__cost-and-time">
                             <div class="flex-container flex-column">
                                 <div class="slide__cost-adult">
-                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg" alt="cost-blue">
                                     <span class="cost">1 740 ₽</span>
                                 </div>
                                 <span class="adult">Взрослый билет</span>
@@ -472,20 +531,20 @@
 
                             <div class="flex-container flex-column">
                                 <div class="slide__cost-kid">
-                                    <img src="./css/Exurcions/images/icons/cost-blue.svg">
+                                    <img src="./css/Exurcions/images/icons/cost-blue.svg" alt="cost-blue">
                                     <span class="cost">1 200 ₽</span>
                                 </div>
                                 <span class="kid">Детский билет</span>
                             </div>
 
                             <div class="slide__cost-time">
-                                <img src="./css/Exurcions/images/icons/time-blue.svg">
+                                <img src="./css/Exurcions/images/icons/time-blue.svg" alt="time-blue">
                                 <span class="time">6 часов</span>
                             </div>
                         </div>
 
                         <div class="slide__text-and-line">
-                            <img src="./css/Exurcions/images/icons/vertical-line.svg">
+                            <img src="./css/Exurcions/images/icons/vertical-line.svg" alt="vertical-line">
                             <p class="slide__text">Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, 
                                 так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения
                             </p>
@@ -496,7 +555,7 @@
                                     Подробнее
                                 </button>
                             </a>
-                            <img src="./css/Exurcions/images/icons/hearth.svg">
+                            <img src="./css/Exurcions/images/icons/hearth.svg" alt="heart">
                         </div>
                     </div>
                 </div>
@@ -513,10 +572,10 @@
 
             <ul class="footer__navigation-list">
                 <li class="footer__navigation-list-item">
-                    <a class="footer__navigation-link" target="_blank" href="#">Главная</a>
+                    <a class="footer__navigation-link" target="_blank" href="./Main.html">Главная</a>
                 </li>
                 <li class="footer__navigation-list-item">
-                    <a class="footer__navigation-link" target="_blank" href="#">Экскурсии</a>
+                    <a class="footer__navigation-link" target="_blank" href="./Excursions.html">Экскурсии</a>
                 </li>
                 <li class="footer__navigation-list-item">
                     <a class="footer__navigation-link" target="_blank" href="#">Личный кабинет</a>
@@ -572,12 +631,13 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="footer__icon">
                             <use xlink:href="./css/images/icons/footer-insta/insta.svg#insta"></use>
                         </svg>
-                        <a href="https://www.facebook.com" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="footer__icon">
-                                <use xlink:href="./css/images/icons/footer-icons/sprite.svg#facebook_color">
-                                </use>
-                            </svg>
-                        </a>
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="footer__icon">
+                            <use xlink:href="./css/images/icons/footer-icons/sprite.svg#facebook_color">
+                            </use>
+                        </svg>
+                    </a>
                 </div>
 
             </div>
@@ -587,6 +647,7 @@
     <script src="./libs/uislider/nouislider.min.js"></script>
     <script src="./js/components/range-slider.js"></script>
     <script src="./css/Exurcions/js/components/filters.js"></script>
+    <script src="./css/Exurcions/js/components/peoples.js"></script>
 </body>
 
 </html>

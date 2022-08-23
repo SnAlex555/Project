@@ -5,25 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Travel Company,тур-оператор,лучшие тур-операторы">
+    <meta name="keywords" content="путешествия,отпуск на море,семейный отдых">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image/png" href="./css/images/favicon/favicon.png">
     <title>Main</title>
 </head>
 
 <body>
     <header class="header__main">
         <nav class="header__navigation">
-            <a href="">
-                <img class="header__logo" src="./css/images/icons/baloon_color.svg"></img>
+            <a href="./Main.html">
+                <img class="header__logo" src="./css/images/icons/baloon_color.svg" alt="header-logo"></img>
             </a>
 
 
             <ul class="header__navigation-list">
                 <li class="header__navigation-list-item">
-                    <a class="header__navigation-link" href="#">Главная</a>
+                    <a class="header__navigation-link--active" href="./Main.html">Главная</a>
                 </li>
                 <li class="header__navigation-list-item">
-                    <a class="header__navigation-link" href="#">Экскурсии</a>
+                    <a class="header__navigation-link" href="/Excursions.html">Экскурсии</a>
                 </li>
                 <li class="header__navigation-list-item">
                     <a class="header__navigation-link" href="#">Личный кабинет</a>
@@ -39,26 +42,32 @@
         </div>
 
 
-        <div class="header__social-links">
+        <div class="header__social-links"> 
+            <div class="header__vk">
             <a href="https://www.vk.com" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon">
                     <use xlink:href="./css/images/icons/header-icons/sprite.svg#vk"></use>
                 </svg>
             </a>
+            </div>
+            <div class="header__insta">
             <a href="https://www.instagram.com" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon">
                     <use xlink:href="./css/images/icons/header-icons/sprite.svg#insta"></use>
                 </svg>
             </a>
+            </div>
+            <div class="header__favebook">
             <a href="https://www.facebook.com" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon">
                     <use xlink:href="./css/images/icons/header-icons/sprite.svg#facebook"></use>
                 </svg>
             </a>
+            </div>
         </div>
 
 
-        <a href="" class="link__excursuions">
+        <a href="./Excursions.html" class="link__excursuions">
             <button class="button__link">
                 К экскурсиям ⟶
             </button>
@@ -240,7 +249,6 @@
                                     руками человека.
                                     Это удивительное место расположено совсем недалеко от Чёрного моря 
                                 </p>
-                                </p>
                                 <a href="" target="_blank" class="link__excursuions">
                                     <button class="button__link-exursions">
                                         Подробнее
@@ -264,7 +272,7 @@
                                     src="./css/images/icons/time.svg">
                                 <span class="popular-excursion-price slide__price">
                                     4 часа
-                                </span class>
+                                </span >
                                 <img class="popular-excursion-price__icon slide__price-icon"
                                     src="./css/images/icons/cost.svg">
                                 <span class="popular-excursion-price slide__price">618 Р</span>
@@ -275,7 +283,6 @@
                                     сотворенная
                                     руками человека.
                                     Это удивительное место расположено совсем недалеко от Чёрного моря 
-                                </p>
                                 </p>
                                 <a href="" target="_blank" class="link__excursuions">
                                     <button class="button__link-exursions">
@@ -289,12 +296,13 @@
                 </div>
 
             </div>
-            <div class="swiper-pagination swiper-pagination1"></div>  
+                <div class="swiper-pagination"></div>
+                </div>
                     
-            <div class="swiper__buttons">
-                <div class="swiper-button-prev swiper-button-prev1"></div>
-                <div class="swiper-button-next swiper-button-next1"></div>
-            </div>
+                <div class="swiper__buttons">
+                    <div class="swiper-button-prev swiper-button-prev1"></div>
+                    <div class="swiper-button-next swiper-button-next1"></div>
+                </div>
 
         </section>
 
@@ -329,13 +337,10 @@
                         <div>
                             <h3 class="types-of-tours__title">Автобусный тур</h3>
                             <p class="types-of-tours__description">
-                                Один из самых насыщенных впечатлениями, доступных по <br>цене и популярных видов отдыха.
-                                Во время одной поездки<br> можно посмотреть достопримечательности сразу <br>нескольких
-                                городов,
-                                причем обойдется это едва ли не в <br>разы дешевле классического экскурсионного тура с
-                                ночевками
-                                в
-                                отелях.</p>
+                                Один из самых насыщенных впечатлениями, доступных по цене и популярных видов отдыха.
+                                Во время одной поездки можно посмотреть достопримечательности сразу нескольких
+                                городов,причем обойдется это едва ли не в разы дешевле классического экскурсионного тура с
+                                ночевками в отелях.</p>
                         </div>
                     </div>
 
@@ -345,11 +350,9 @@
                         <div>
                             <h3 class="types-of-tours__title">Джиппинг</h3>
                             <p class="types-of-tours__description">
-                                Это путешествие на автомобилях высокой проходимости с <br>преодолением естественных
-                                препятствий,
-                                это<br>
-                                экстремальный вид спорта и отдыха,
-                                представляющий <br>собой прохождение туристического маршрута по <br>бездорожью на
+                                Это путешествие на автомобилях высокой проходимости с преодолением естественных
+                                препятствий,этоэкстремальный вид спорта и отдыха,
+                                представляющий собой прохождение туристического маршрута по бездорожью на
                                 автомобилях.
                             </p>
                         </div>
@@ -362,13 +365,9 @@
                         <div>
                             <h3 class="types-of-tours__title">Яхтинг</h3>
                             <p class="types-of-tours__description">
-                                Это то же, что круиз на лайнере или прогулка на пароме,<br> только на яхте больше
-                                свободы,
-                                размеры судна в разы<br> меньше,
-                                нет назойливой команды, можно самостоятельно <br>почувствовать себя капитаном, постоять
-                                за
-                                штурвалом.<br>
-                                Именно здесь вы почувствуете величайшие просторы <br>Черногор моря.</p>
+                                Это то же, что круиз на лайнере или прогулка на пароме, только на яхте больше
+                                свободы,размеры судна в разы меньше, нет назойливой команды, можно самостоятельно почувствовать себя капитаном, постоятьза штурвалом.
+                                Именно здесь вы почувствуете величайшие просторы Черного моря.</p>
                         </div>
                     </div>
 
@@ -377,10 +376,8 @@
                         <div>
                             <h3 class="types-of-tours__title">Каньонинг</h3>
                             <p class="types-of-tours__description">
-                                Это экстремально-спортивный вид отдыха, который <br>заключается в преодолении каньонов
-                                (обводненных или <br>нет)
-                                при помощи альпинистского и иного снаряжения, а<br> иногда и вброд, но без лодок или
-                                иных
+                                Это экстремально-спортивный вид отдыха, который заключается в преодолении каньонов
+                                (обводненных или нет)при помощи альпинистского и иного снаряжения, а иногда и вброд, но без лодок илииных
                                 плавсредств.</p>
                         </div>
                     </div>
@@ -407,49 +404,50 @@
             </div>
 
             <div class="gallery__container">
-                <img class="gallery__item item-1" src="./css/images/gallery/mountains-sea.jpg">
-                <img class="gallery__item item-2" src="./css/images/gallery/girl-waterpool.jpg">
-                <img class="gallery__item item-3" src="./css/images/gallery/guys-on-bike.jpg">
-                <img class="gallery__item item-4" src="./css/images/gallery/tower-on-mountains.jpg">
-                <img class="gallery__item item-5" src="./css/images/gallery/girl-on-horse.jpg">
-                <img class="gallery__item item-6" src="./css/images/gallery/pass-under-the-mountain.jpg">
-                <img class="gallery__item item-7" src="./css/images/gallery/sea-city-mountains.jpg">
-                <img class="gallery__item item-8" src="./css/images/gallery/city-on-mountains.jpg">
+                <img class="gallery__item item-1" src="./css/images/gallery/mountains-sea.jpg" alt="mountains-sea">
+                <img class="gallery__item item-2" src="./css/images/gallery/girl-waterpool.jpg" alt="girl-waterpool">
+                <img class="gallery__item item-3" src="./css/images/gallery/guys-on-bike.jpg" alt="guys-on-bike">
+                <img class="gallery__item item-4" src="./css/images/gallery/tower-on-mountains.jpg" alt="tower-on-mountains">
+                <img class="gallery__item item-5" src="./css/images/gallery/girl-on-horse.jpg" alt="girl-on-horse">
+                <img class="gallery__item item-6" src="./css/images/gallery/pass-under-the-mountain.jpg" alt="pass-under-the-mountain">
+                <img class="gallery__item item-7" src="./css/images/gallery/sea-city-mountains.jpg" alt="sea-city-mountains">
+                <img class="gallery__item item-8" src="./css/images/gallery/city-on-mountains.jpg" alt="city-on-mountains">
                 
             </div>
 
-            <!-- <div class="gallery__wrapper">
-                <div class="flex-container flex-column">
-                    <img class="gallery__item" src="./css/images/gallery/mountains-sea.jpg" alt="mountains-sea"
-                        width=503.48px height=280.5px>
-                    <div class="flex-container">
-                        <img class="gallery__item" src="./css/images/gallery/girl-on-horse.jpg" alt="girl-on-horse"
-                            width=216.5px height=263.95px>
-                        <div class="flex-container flex-column">
-                            <img class="gallery__item" src="./css/images/gallery/pass-under-the-mountain.jpg"
-                                alt="pass-under-the-mountain" width=266.85px height=123.29px>
+            <!-- <div class="gallery__container">
+                <a href="./css/images/gallery/mountains-sea.jpg" class="gallery-item">
+                <img class="gallery__item item-1" src="./css/images/gallery/mountains-sea.jpg">
+                </a>
 
-                            <img class="gallery__item" src="./css/images/gallery/city-on-mountains.jpg"
-                                alt="city-on-mountains" width=266.85px height=123.29px>
-                        </div>
-                    </div>
-                </div>
+                <a href="./css/images/gallery/girl-waterpool.jpg" class="gallery-item">
+                <img class="gallery__item item-2" src="./css/images/gallery/girl-waterpool.jpg">
+                </a> 
 
-                <div>
-                    <img class="gallery__item" src="./css/images/gallery/girl-waterpool.jpg" alt="girl-waterpool"
-                        width=362px height=567px>
-                </div>
+                <a href="./css/images/gallery/guys-on-bike.jpg" class="gallery-item">
+                <img class="gallery__item item-3" src="./css/images/gallery/guys-on-bike.jpg">   
+                </a>     
 
-                <div class="flex-container flex-column">
-                    <div class="flex-container">
-                        <img class="gallery__item" src="./css/images/gallery/guys-on-bike.jpg" alt="guys-on-bike"
-                            width=266.85px height=263.95px>
-                        <img class="gallery__item" src="./css/images/gallery/tower-on-mountains.jpg"
-                            alt="tower-on-mountains" width=216.5px height=263.95px>
-                    </div>
-                    <img class="gallery__item" src="./css/images/gallery/sea-city-mountains.jpg"
-                        alt="sea-city-mountains" width=503.48px height=280.5px>
-                </div>
+                <a href="./css/images/gallery/tower-on-mountains.jpg" class="gallery-item">
+                <img class="gallery__item item-4" src="./css/images/gallery/tower-on-mountains.jpg">
+                </a> 
+
+                <a href="./css/images/gallery/girl-on-horse.jpg" class="gallery-item">
+                <img class="gallery__item item-5" src="./css/images/gallery/girl-on-horse.jpg">
+                </a>
+
+                <a href="./css/images/gallery/pass-under-the-mountain.jpg" class="gallery-item">
+                <img class="gallery__item item-6" src="./css/images/gallery/pass-under-the-mountain.jpg">
+                </a>
+
+                <a href="./css/images/gallery/sea-city-mountains.jpg" class="gallery-item">
+                <img class="gallery__item item-7" src="./css/images/gallery/sea-city-mountains.jpg">
+                </a> 
+
+                <a href="./css/images/gallery/city-on-mountains.jpg" class="gallery-item">
+                <img class="gallery__item item-8" src="./css/images/gallery/city-on-mountains.jpg">
+                </a> 
+                
             </div> -->
 
         </section>
@@ -483,7 +481,7 @@
                                         est laborum.
                                             </p>
                                         </div>
-                                    <img class="feedbacks__svg" src="./css/images/feedbacks/drops.svg">
+                                    <img class="feedbacks__svg" src="./css/images/icons/drops.svg" alt="drops">
                                 </div>
                             </div>
                         </div>
@@ -507,7 +505,7 @@
                                     est laborum.
                                         </p>
                                     </div>
-                                    <img class="feedbacks__svg" src="./css/images/feedbacks/drops.svg">
+                                    <img class="feedbacks__svg" src="./css/images/icons/drops.svg" alt="drops">
                                 </div>
                             </div>
                         </div>
@@ -532,7 +530,7 @@
                                             est laborum.
                                         </p>
                                     </div>
-                                    <img class="feedbacks__svg" src="./css/images/feedbacks/drops.svg">    
+                                    <img class="feedbacks__svg" src="./css/images/icons/drops.svg" alt="drops">    
                                 </div>
                             </div>
                         </div>
@@ -555,7 +553,7 @@
                                             est laborum.
                                         </p>
                                     </div>
-                                    <img class="feedbacks__svg" src="./css/images/feedbacks/drops.svg">
+                                    <img class="feedbacks__svg" src="./css/images/icons/drops.svg" alt="drops">
                                 </div>
                             </div>
                         </div>
@@ -565,7 +563,7 @@
                    
                 </div> 
 
-                <div class="swiper-pagination swiper-pagination2"></div>  
+                <div class="swiper2-pagination"></div>  
                      
                 <div class="swiper__buttons2">
                     <div class="swiper-button-prev swiper-button-prev2"></div>
@@ -610,10 +608,10 @@
 
                 <ul class="footer__navigation-list">
                     <li class="footer__navigation-list-item">
-                        <a class="footer__navigation-link" target="_blank" href="#">Главная</a>
+                        <a class="footer__navigation-link" target="_blank" href="./Main.html">Главная</a>
                     </li>
                     <li class="footer__navigation-list-item">
-                        <a class="footer__navigation-link" target="_blank" href="#">Экскурсии</a>
+                        <a class="footer__navigation-link" target="_blank" href="./Excursions.html">Экскурсии</a>
                     </li>
                     <li class="footer__navigation-list-item">
                         <a class="footer__navigation-link" target="_blank" href="#">Личный кабинет</a>
@@ -675,12 +673,13 @@
                             <svg xmlns="http://www.w3.org/2000/svg" class="footer__icon">
                                 <use xlink:href="./css/images/icons/footer-insta/insta.svg#insta"></use>
                             </svg>
-                            <a href="https://www.facebook.com" target="_blank">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="footer__icon">
-                                    <use xlink:href="./css/images/icons/footer-icons/sprite.svg#facebook_color">
-                                    </use>
-                                </svg>
-                            </a>
+                        </a>
+                         <a href="https://www.facebook.com" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="footer__icon">
+                                <use xlink:href="./css/images/icons/footer-icons/sprite.svg#facebook_color">
+                                   </use>
+                            </svg>
+                        </a>
                     </div>
 
                 </div>

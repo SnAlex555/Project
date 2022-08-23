@@ -43,6 +43,16 @@
     ;
 }
 
+.gallery__item{
+    border-radius: 5px;
+    transition: 0.3s linear;
+}
+
+.gallery__item:hover{
+    box-shadow: 0px 0px 15px 6px ;
+    transform: scale(1.1);
+}
+
 .item-1 {
     grid-area: item-1;
 }

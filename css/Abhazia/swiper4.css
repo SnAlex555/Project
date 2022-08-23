@@ -1,0 +1,29 @@
+.swiper4{
+    width: 1743px;
+    height: 400px;
+    margin-left: 160px;
+    margin-top: 90px;
+}
+
+.swiper-button-next4{
+    position: absolute;
+    top: 5990px;
+    left: 160px;
+    color: #D4D4D4;
+    margin-left: 62px;
+}
+
+.swiper-button-prev4{
+    position: absolute;
+    top: 5990px;
+    left: 160px;
+    color: #D4D4D4;
+}
+
+.swiper4-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal{
+    width: 84%;
+    height: 4px;
+    left: 301px;
+    top: 5985px;
+    background: #D4D4D4;
+}

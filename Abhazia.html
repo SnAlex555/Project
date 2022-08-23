@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Travel Company,тур-оператор,лучшие тур-операторы">
+    <meta name="keywords" content="путешествия,отпуск на море,семейный отдых">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image/png" href="./css/images/favicon/favicon.png">
     <title>Abhazia</title>
 </head>
 
@@ -14,16 +17,16 @@
 
     <header class="abhazia__header">
         <nav class="header__navigation">
-            <a href="">
-                <img class="header__logo" src="./css/images/icons/baloon_color.svg"></img>
+            <a href="./Main.html">
+                <img class="header__logo" src="./css/images/icons/baloon_color.svg" alt="header-logo"></img>
             </a>
 
             <ul class="header__navigation-list">
                 <li class="header__navigation-list-item">
-                    <a class="header__navigation-link" href="#">Главная</a>
+                    <a class="header__navigation-link" href="./Main.html">Главная</a>
                 </li>
                 <li class="header__navigation-list-item">
-                    <a class="header__navigation-link" href="#">Экскурсии</a>
+                    <a class="header__navigation-link" href="/Excursions.html">Экскурсии</a>
                 </li>
                 <li class="header__navigation-list-item">
                     <a class="header__navigation-link" href="#">Личный кабинет</a>
@@ -39,7 +42,7 @@
         </div>
 
         <div class="abhazia__header-buttons">
-            <a href="" class="link__header-buttons">
+            <a href="./Excursions.html" class="link__header-buttons">
                 <button class="button__header-buttons">
                     К другим экскурсиям ⟶
                 </button>
@@ -58,7 +61,7 @@
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_55_259" result="shape"/>
                     </filter>
                     </defs>
-                    </svg>
+                </svg>
             </button> 
             <!-- <img class="" src="./css/Abhazia/images/icons/abhazia-hearth.svg" width="50px" height="50px"> -->
         </div>
@@ -112,10 +115,10 @@
 
         <section class="calendar">
             <div class="calendar__wrapper">
-                <img class="calendar__back" src="./css/Abhazia/images/calendar-background .png">
+                <img class="calendar__back" src="./css/Abhazia/images/calendar-background .jpg" alt="календарь">
                     <div>
                     <h2 class="calendar__section-title">Календарь путешествий</h2>
-                    <img class ="calendar__img "src="./css/Abhazia/images/календарь.png" alt="calendar">
+                    <img class ="calendar__img " src="./css/Abhazia/images/календарь.jpg" alt="calendar">
                     </div>
             </div>
 
@@ -124,46 +127,85 @@
         <section class="abhazia__route">
             <div class="abhazia__route-text-block">
                 <h2 class="main__section-title">Описание экскурсии</h2>
-                <div class="abhazia__route-list1">
-                    <div>
+                 <div class="abhazia__route-list1">
+                    <div class="flex-container baseline">
                         <img class="abhazia__route-list-item" src="./css/Abhazia/images/icons/dot.svg" alt="dot">
-                        <span class="abhazia__route-list-text">Город Гагра, Колоннада, ресторан "Гагрипш", Парк принца
-                            Ольденбурского;</span>
+                        <p class="abhazia__route-list-text">Город Гагра, Колоннада, ресторан "Гагрипш", Парк принца
+                            Ольденбурского;</p>
                     </div>
 
-                    <div>
-                        <img class="abhazia__route-list-item" src="./css/Abhazia/images/icons/dot.svg">
-                        <span class="abhazia__route-list-text">Смотровая площадка "Прощай Родина", "Чабгарский" карниз,
-                            Подвесной мост через реку "Бзыбь";</span>
+                    <div class="flex-container baseline">
+                        <img class="abhazia__route-list-item" src="./css/Abhazia/images/icons/dot.svg" alt="dot">
+                        <p class="abhazia__route-list-text">Смотровая площадка "Прощай Родина", "Чабгарский" карниз,
+                            Подвесной мост через реку "Бзыбь";</p>
                     </div>
 
-                    <div>
-                        <img class="abhazia__route-list-item" src="./css/Abhazia/images/icons/dot.svg">
-                        <span class="abhazia__route-list-text">Дегустация сыра, меда, вина, чачи (входит в стоимость
+                    <div class="flex-container baseline">
+                        <img class="abhazia__route-list-item" src="./css/Abhazia/images/icons/dot.svg" alt="dot">
+                        <p class="abhazia__route-list-text">Дегустация сыра, меда, вина, чачи (входит в стоимость
                             экскурсии),
                             Голубое Озеро, Юпшарский каньон ("Каменный мешок"),
-                            Озеро "Рица", Водопады "Девичьи и мужские слезы".</span>
+                            Озеро "Рица", Водопады "Девичьи и мужские слезы".</p>
                     </div>
                 </div>
 
                 <h5 class="abhazia__route-list2-description">Далее на выбор:</h5>
                 <div class="abhazia__route-list2">
-                    <div>
-                        <img class="abhazia__route-list-item" src="./css/Abhazia/images/icons/dot.svg">
-                        <span class="abhazia__route-list-text">Монастырь "Новый Афон", Новоафонская Пещера,
-                            "Рукотворный" водопад, храм "Симона Кананита", Лебединое озеро.</span>
+                    <div class="flex-container baseline">
+                        <img class="abhazia__route-list-item" src="./css/Abhazia/images/icons/dot.svg" alt="dot">
+                        <p class="abhazia__route-list-text">Монастырь "Новый Афон", Новоафонская Пещера,
+                            "Рукотворный" водопад, храм "Симона Кананита", Лебединое озеро.</p>
                     </div>
 
-                    <div>
-                        <img class="abhazia__route-list-item" src="./css/Abhazia/images/icons/dot.svg">
-                        <span class="abhazia__route-list-text">Термальный источник в с. Приморское. </span>
+                    <div class="flex-container baseline">
+                        <img class="abhazia__route-list-item" src="./css/Abhazia/images/icons/dot.svg" alt="dot">
+                        <p class="abhazia__route-list-text">Термальный источник в с. Приморское. </p>
                     </div>
                 </div>
 
-            </div>
-
+            </div> 
 
             <div class="abhazia__route-slider">
+                <div class="swiper swiper3">
+                    
+                    <div class="swiper-wrapper">
+                        
+                      <div class="swiper-slide">
+                            <div class="abhazia__route-slider-box1">
+                                <div class="abhazia__route-slider-content">
+                                <p class="abhazia__route-description">Гагра</p>
+                                </div>
+                            </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                            <div class="abhazia__route-slider-box2">
+                                <div class="abhazia__route-slider-content">
+                                <p class="abhazia__route-description">Абхазия</p>
+                                </div>
+                            </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <div class="abhazia__route-slider-box3">
+                            <div class="abhazia__route-slider-content">
+                                <p class="abhazia__route-description">Райский остров</p>
+                            </div>
+                        </div>
+                      </div>
+                     
+                    </div>
+                    
+                </div>
+
+                  <div class="swiper3-pagination"></div>
+                  
+                  <div class="swiper__buttons3">  
+                    <div class="swiper-button-prev swiper-button-prev3"></div>
+                    <div class="swiper-button-next swiper-button-next3"></div>
+                  </div>
+                  
+
 
             </div>
 
@@ -240,13 +282,13 @@
                 <div class="аbhazia__information-block2">
                     <div class="аbhazia__information-attention1">
                         <p class="аbhazia__attention-text1">Иностранным гражданам въезд в Абхазию <span>ограничен</span>, кроме граждан Украины, республик ДНР и ЛНР.</p>
-                        <img src="./css/Abhazia/images/!.png" width="16px" height="73px">
+                        <img src="./css/Abhazia/images/!.png" width="16px" height="73px" alt="!">
                     </div>
                     <div class="аbhazia__information-attention2">
                         <p class="аbhazia__attention-text2">При возвращении из Абхазии в Россию сдавать ПЦР-тест не нужно, на карантин помещать не будут 
                             (Постановление Правительства РФ 1996-Р от 01.08.2020).
                         </p>
-                        <img src="./css/Abhazia/images/!.png"width="16px" height="73px">
+                        <img src="./css/Abhazia/images/!.png" width="16px" height="73px" alt="!">
                     </div>
                 </div>
             </div>
@@ -261,14 +303,14 @@
             </div>
 
             <div class="gallery__container">
-                <img class="gallery__item item-1" src="./css/Abhazia/images/gallery/mountains-sea.jpg">
-                <img class="gallery__item item-2" src="./css/Abhazia/images/gallery/house.jpg">
-                <img class="gallery__item item-3" src="./css/Abhazia/images/gallery/guys-on-bike.jpg">
-                <img class="gallery__item item-4" src="./css/Abhazia/images/gallery/ark.jpg">
-                <img class="gallery__item item-5" src="./css/Abhazia/images/gallery/girl-on-horse.jpg">
-                <img class="gallery__item item-6" src="./css/Abhazia/images/gallery/pass-under-the-mountain.jpg">
-                <img class="gallery__item item-7" src="./css/Abhazia/images/gallery/sea-city-mountains.jpg">
-                <img class="gallery__item item-8" src="./css/Abhazia/images/gallery/city-on-mountains.jpg">
+                <img class="gallery__item item-1" src="./css/Abhazia/images/gallery/mountains-sea.jpg" alt="mountains-sea">
+                <img class="gallery__item item-2" src="./css/Abhazia/images/gallery/house.jpg" alt="house">
+                <img class="gallery__item item-3" src="./css/Abhazia/images/gallery/guys-on-bike.jpg" alt="guys-on-bike">
+                <img class="gallery__item item-4" src="./css/Abhazia/images/gallery/ark.jpg" alt="ark">
+                <img class="gallery__item item-5" src="./css/Abhazia/images/gallery/girl-on-horse.jpg" alt="girl-on-horse">
+                <img class="gallery__item item-6" src="./css/Abhazia/images/gallery/pass-under-the-mountain.jpg" alt="pass-under-the-mountain">
+                <img class="gallery__item item-7" src="./css/Abhazia/images/gallery/sea-city-mountains.jpg" alt="sea-city-mountains">
+                <img class="gallery__item item-8" src="./css/Abhazia/images/gallery/city-on-mountains.jpg" alt="city-on-mountains">
                 
             </div>
 
@@ -282,14 +324,37 @@
                 <a class="feedbacks__watch-all" href="" target="_blank">Смотреть все</a>
             </div>
 
-            <div class="swiper swiper2">
-                    
-                <div class="swiper-wrapper">
-            
-                    <div class="swiper-slide">
-                        <div class="feedbacks__section-box1">
-                            <div class="feedbacks__section-content">
-                                <img class="feedbacks-section-content__img" src="./css/images/feedbacks/feedback-1.jpg" alt="feedback-1">
+            <div class="swiper swiper4">
+                    <div class="swiper-wrapper">
+                
+                        <div class="swiper-slide">
+                            <div class="feedbacks__section-box1">
+                                <div class="feedbacks__section-content">
+                                    <img class="feedbacks-section-content__img" src="./css/images/feedbacks/feedback-1.jpg" alt="feedback-1">
+                                        <div class="feedbacks__text-content">
+                                            <p class="feedbacks__client">Иван Иванов, 25 лет</p>
+                                            <p class="feedbacks__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                        eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua.
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat
+                                        nulla pariatur.
+                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                                        anim id
+                                        est laborum.
+                                            </p>
+                                        </div>
+                                    <img class="feedbacks__svg" src="./css/images/icons/drops.svg" alt="drops">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="feedbacks__section-box2">
+                                <div class="feedbacks__section-content">
+                                    <img class="feedbacks-section-content__img" src="./css/images/feedbacks/feedback-2.jpg" alt="feedback-2">
                                     <div class="feedbacks__text-content">
                                         <p class="feedbacks__client">Иван Иванов, 25 лет</p>
                                         <p class="feedbacks__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -305,101 +370,76 @@
                                     est laborum.
                                         </p>
                                     </div>
-                                <img class="feedbacks__svg" src="./css/images/feedbacks/drops.svg">
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="swiper-slide">
-                        <div class="feedbacks__section-box2">
-                            <div class="feedbacks__section-content">
-                                <img class="feedbacks-section-content__img" src="./css/images/feedbacks/feedback-2.jpg" alt="feedback-2">
-                                <div class="feedbacks__text-content">
-                                    <p class="feedbacks__client">Иван Иванов, 25 лет</p>
-                                    <p class="feedbacks__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                fugiat
-                                nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                                anim id
-                                est laborum.
-                                    </p>
+                                    <img class="feedbacks__svg" src="./css/images/icons/drops.svg" alt="drops">
                                 </div>
-                                <img class="feedbacks__svg" src="./css/images/feedbacks/drops.svg">
                             </div>
                         </div>
+                        
+                    
+                        <div class="swiper-slide">
+                            <div class="feedbacks__section-box3">
+                                <div class="feedbacks__section-content">
+                                    <img class="feedbacks-section-content__img" src="./css/images/feedbacks/feedback-1.jpg" alt="feedback-1">
+                                    <div class="feedbacks__text-content">
+                                        <p class="feedbacks__client">Иван Иванов, 25 лет</p>
+                                        <p class="feedbacks__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                            eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.
+                                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                            commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                            fugiat
+                                            nulla pariatur.
+                                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                                            anim id
+                                            est laborum.
+                                        </p>
+                                    </div>
+                                    <img class="feedbacks__svg" src="./css/images/icons/drops.svg" alt="drops">    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="feedbacks__section-box3">
+                                <div class="feedbacks__section-content">
+                                    <img class="feedbacks-section-content__img" src="./css/images/feedbacks/feedback-2.jpg" alt="feedback-2">
+                                    <div class="feedbacks__text-content">
+                                        <p class="feedbacks__client">Иван Иванов, 25 лет</p>
+                                        <p class="feedbacks__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                            eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.
+                                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                            commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                            fugiat
+                                            nulla pariatur.
+                                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                                            anim id
+                                            est laborum.
+                                        </p>
+                                    </div>
+                                    <img class="feedbacks__svg" src="./css/images/icons/drops.svg" alt="drops">
+                                </div>
+                            </div>
+                        </div>
+                    
                     </div>
                     
-                
-                    <div class="swiper-slide">
-                        <div class="feedbacks__section-box3">
-                            <div class="feedbacks__section-content">
-                                <img class="feedbacks-section-content__img" src="./css/images/feedbacks/feedback-1.jpg" alt="feedback-1">
-                                <div class="feedbacks__text-content">
-                                    <p class="feedbacks__client">Иван Иванов, 25 лет</p>
-                                    <p class="feedbacks__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua.
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                        commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat
-                                        nulla pariatur.
-                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                                        anim id
-                                        est laborum.
-                                    </p>
-                                </div>
-                                <img class="feedbacks__svg" src="./css/images/feedbacks/drops.svg">    
-                            </div>
-                        </div>
-                    </div>
+                   
+            </div> 
 
-
-                    <div class="swiper-slide">
-                        <div class="feedbacks__section-box3">
-                            <div class="feedbacks__section-content">
-                                <img class="feedbacks-section-content__img" src="./css/images/feedbacks/feedback-2.jpg" alt="feedback-2">
-                                <div class="feedbacks__text-content">
-                                    <p class="feedbacks__client">Иван Иванов, 25 лет</p>
-                                    <p class="feedbacks__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua.
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                        commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat
-                                        nulla pariatur.
-                                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                                        anim id
-                                        est laborum.
-                                    </p>
-                                </div>
-                                <img class="feedbacks__svg" src="./css/images/feedbacks/drops.svg">
-                            </div>
-                        </div>
-                    </div>
-                
+                <div class="swiper4-pagination"></div>  
+                     
+                <div class="swiper__buttons4">
+                    <div class="swiper-button-prev swiper-button-prev4"></div>
+                    <div class="swiper-button-next swiper-button-next4"></div>
                 </div>
-                
-                <div class="swiper2-pagination"></div>
-              </div>   
 
-        <div class="swiper__buttons2">
-            <div class="swiper-button-prev2"></div>
-            <div class="swiper-button-next2"></div>
-        </div>
-        
         </section>
 
         <section class="abhazia__booking-tour">
             <div class="abhazia__booking-wrapper">
-                <img class="booking-wrapper__background" src="./css/Abhazia/images/booking-background .png">
+                <img class="booking-wrapper__background" src="./css/Abhazia/images/booking-background .jpg" alt="booking-background">
                 <div class="abhazia__booking-block">
                     
                     <h2 class="abhazia__booking-section-title">Забронировать тур</h2>
@@ -447,8 +487,6 @@
                                 </button>
                             
                             <!-- <img class="abhazia-booking-button__img" src="./css/Abhazia/images/icons/abhazia-hearth-form.svg"> -->
-
-
                     </div>
                 </div>
             </div>
@@ -461,10 +499,10 @@
 
                 <ul class="footer__navigation-list">
                     <li class="footer__navigation-list-item">
-                        <a class="footer__navigation-link" target="_blank" href="#">Главная</a>
+                        <a class="footer__navigation-link" target="_blank" href="./Main.html">Главная</a>
                     </li>
                     <li class="footer__navigation-list-item">
-                        <a class="footer__navigation-link" target="_blank" href="#">Экскурсии</a>
+                        <a class="footer__navigation-link" target="_blank" href="./Excursions.html">Экскурсии</a>
                     </li>
                     <li class="footer__navigation-list-item">
                         <a class="footer__navigation-link" target="_blank" href="#">Личный кабинет</a>
@@ -520,12 +558,13 @@
                             <svg xmlns="http://www.w3.org/2000/svg" class="footer__icon">
                                 <use xlink:href="./css/images/icons/footer-insta/insta.svg#insta"></use>
                             </svg>
-                            <a href="https://www.facebook.com" target="_blank">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="footer__icon">
-                                    <use xlink:href="./css/images/icons/footer-icons/sprite.svg#facebook_color">
-                                    </use>
-                                </svg>
-                            </a>
+                        </a>  
+                        <a href="https://www.facebook.com" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="footer__icon">
+                                <use xlink:href="./css/images/icons/footer-icons/sprite.svg#facebook_color">
+                                </use>
+                            </svg>
+                        </a>
                     </div>
 
                 </div>
@@ -534,7 +573,8 @@
     </main>
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="./css/Abhazia/js/swiper2.js"></script>
+    <script src="./css/Abhazia/js/swiper3.js"></script>
+    <script src="./css/Abhazia/js/swiper4.js"></script>
 </body>
 
 </html>

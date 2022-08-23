@@ -1,5 +1,5 @@
 .abhazia__header{
-    background-image: url('../Abhazia/images/abhazia-header.png');
+    background-image: url('../Abhazia/images/abhazia-header.jpg');
     background-size: cover;
     height:896px;
     width:100%;
@@ -65,7 +65,7 @@
 
 .link__header-button:hover{
     color:var(--yellow);
-    transition: color .3s;
+    transition: color .5s;
 }
 
 .svg__header-button{
