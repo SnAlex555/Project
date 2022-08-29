@@ -1,0 +1,17 @@
+
+@media screen and (max-width:768px )
+{
+    .header__main{
+        background-image: url('../images/tablet/header-tablet.jpg');
+        background-size: cover;
+        height:1024px;
+        background-repeat: no-repeat;
+        width: 100%;
+        max-width: 768px;
+        position: relative;
+    }
+    
+    
+}
+
+

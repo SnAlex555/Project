@@ -1,6 +1,7 @@
 .аbhazia__feedbacks{
     width:100%;
     margin-top: 150px;
+    position: relative;
 }
 
 .feedbacks__section-box1{
@@ -16,6 +17,7 @@
     background-color:var(--blocks-color) ;
     position: relative;
 }
+
 .feedbacks__section-box3{
     width: 740px;
     height: 322px;

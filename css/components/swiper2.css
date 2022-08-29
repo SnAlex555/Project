@@ -9,13 +9,13 @@
     width: 84%;
     height: 4px;
     left: 301px;
-    top: 5113px;
+    top: 100%;
     background: #D4D4D4;
 } 
 
 .swiper-button-prev2{
     position: absolute;
-    top: 5116px;
+    top: 100%;
     left: 160px;
     color:#D4D4D4;
     color:#D4D4D4;
@@ -23,7 +23,7 @@
 
 .swiper-button-next2{
     position: absolute;
-    top: 5116px;
+    top: 100%;
     left: 160px;
     color:#D4D4D4;
     margin-left: 62px;

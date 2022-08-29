@@ -2,6 +2,7 @@
     margin-top:  550px;
     height: 653px;
     display: flex;
+    position: relative;
 }
 
 .abhazia__route-text-block{

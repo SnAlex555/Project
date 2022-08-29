@@ -7,7 +7,6 @@
 
 
 @import url('./components/header.css');
-@import url('./components/header-mobile.css');
 @import url('./components/popular-exursions.css');
 @import url('./components/swiper1.css');
 @import url('./components/about-us.css');
@@ -18,10 +17,12 @@
 @import url('./components/main-form.css');
 @import url('./components/footer.css');
 
+
 @import url('./Exurcions/excursions-header.css');
 @import url('./Exurcions/excursions-top-filter.css');
 @import url('./Exurcions/excursions-content-filter.css');
 @import url('./Exurcions/excursions-content-out-tours.css');
+
 
 @import url('./Abhazia/abhazia-header.css');
 @import url('./Abhazia/abhazia-excursion-description.css');

@@ -7,7 +7,7 @@
 
 .swiper-button-next4{
     position: absolute;
-    top: 5990px;
+    top: 100%;
     left: 160px;
     color: #D4D4D4;
     margin-left: 62px;
@@ -15,7 +15,7 @@
 
 .swiper-button-prev4{
     position: absolute;
-    top: 5990px;
+    top: 100%;
     left: 160px;
     color: #D4D4D4;
 }
@@ -24,6 +24,6 @@
     width: 84%;
     height: 4px;
     left: 301px;
-    top: 5985px;
+    top: 100%;
     background: #D4D4D4;
 }

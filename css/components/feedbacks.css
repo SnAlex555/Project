@@ -1,10 +1,12 @@
 .feedbacks{
     margin-top: 180px;
     margin-bottom: 90px;
+    position: relative;
 }
 
 .feedbacks__links{
     display: flex;
+    justify-content: space-between;
 }
 
 .feedbacks__watch-all{
@@ -15,7 +17,6 @@
     line-height: 15px;
     text-decoration-line: underline;
     color: var(--black);
-    margin-left: 1395px;
     margin-right: 160px;
 }
 

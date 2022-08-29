@@ -20,7 +20,6 @@
                 <img class="header__logo" src="./css/images/icons/baloon_color.svg" alt="header-logo"></img>
             </a>
 
-
             <ul class="header__navigation-list">
                 <li class="header__navigation-list-item">
                     <a class="header__navigation-link--active" href="./Main.html">Главная</a>
@@ -32,12 +31,13 @@
                     <a class="header__navigation-link" href="#">Личный кабинет</a>
                 </li>
             </ul>
-        </nav>
-
+        </nav>   
 
         <div class="header__title">
             <h1 class="header__travel-description">ПУТЕШЕСТВУЙ</h1>
             <img class="header__pero-description" src="./css/images/header/PERO TRAVEL.png">
+            <img class="header__pero-description-tablet" src="./css/images/tablet/header/PERO TRAVEL-tablet.png">
+            <img class="header__pero-description-mobile" src="./css/images/mobile/header/PERO TRAVEL-mobile.png">
             <h1 class="header__with-description">вместе с</h1>
         </div>
 
@@ -75,10 +75,15 @@
 
 
         <div class="header__media">
-            <video width="360" height="227" controls poster="./css/images/header/Video-boat.png">
+            <video class="header__video" width="360" height="227" controls poster="./css/images/header/Video-boat.jpg">
                 <source src="./css/video/Алтай.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
             </video>
-            <img class="header__promo" src="./css/images/header/header-road-in-forest.png" alt="header__promo">
+            <img class="header__promo" src="./css/images/header/header-road-in-forest.jpg" alt="header__promo">
+            <video class="header__video-tablet-mobile" width="297" height="187" controls poster="./css/images/tablet/header/video-boat-tablet,mobile.jpg">
+                <source src="./css/video/Алтай.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            </video>
+            <img class="header__promo-tablet" src="./css/images/tablet/header/header-road-in-forest-tablet.jpg" alt="header__promo-tablet">
+            <img class="header__promo-mobile" src="./css/images/mobile/header/header-road-in-forest-mobile.jpg" alt="header__promo-mobile">
         </div>
     </header>
 
@@ -93,7 +98,7 @@
 
             <div class="swiper swiper1">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="swiper-slide swiper-slide1">
                         <div class="popular-exursion-section__box1">
                             <div class="popular-exursions-section__content">
                                 <p class="popular-exursions-type slide__type">
@@ -126,7 +131,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide swiper-slide1">
                         <div class="popular-exursion-section__box2">
                             <div class="popular-exursions-section__content">
                                 <p class="popular-exursions-type slide__type">
@@ -158,7 +163,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide swiper-slide1">
                         <div class="popular-exursion-section__box3">
                             <div class="popular-exursions-section__content">
                                 <p class="popular-exursions-type slide__type">
@@ -190,7 +195,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide swiper-slide1">
                         <div class="popular-exursion-section__box4">
                             <div class="popular-exursions-section__content">
                                 <p class="popular-exursions-type slide__type">
@@ -224,7 +229,7 @@
                         </div>
                     </div>
 
-                    <div class="swiper-slide">
+                    <div class="swiper-slide swiper-slide1">
                         <div class="popular-exursion-section__box5">
                             <div class="popular-exursions-section__content">
                                 <p class="popular-exursions-type slide__type">
@@ -324,6 +329,7 @@
                         vitae dicta sunt explicabo.</p>
                 </div>
             </div>
+
         </section>
 
 
@@ -415,41 +421,7 @@
                 
             </div>
 
-            <!-- <div class="gallery__container">
-                <a href="./css/images/gallery/mountains-sea.jpg" class="gallery-item">
-                <img class="gallery__item item-1" src="./css/images/gallery/mountains-sea.jpg">
-                </a>
-
-                <a href="./css/images/gallery/girl-waterpool.jpg" class="gallery-item">
-                <img class="gallery__item item-2" src="./css/images/gallery/girl-waterpool.jpg">
-                </a> 
-
-                <a href="./css/images/gallery/guys-on-bike.jpg" class="gallery-item">
-                <img class="gallery__item item-3" src="./css/images/gallery/guys-on-bike.jpg">   
-                </a>     
-
-                <a href="./css/images/gallery/tower-on-mountains.jpg" class="gallery-item">
-                <img class="gallery__item item-4" src="./css/images/gallery/tower-on-mountains.jpg">
-                </a> 
-
-                <a href="./css/images/gallery/girl-on-horse.jpg" class="gallery-item">
-                <img class="gallery__item item-5" src="./css/images/gallery/girl-on-horse.jpg">
-                </a>
-
-                <a href="./css/images/gallery/pass-under-the-mountain.jpg" class="gallery-item">
-                <img class="gallery__item item-6" src="./css/images/gallery/pass-under-the-mountain.jpg">
-                </a>
-
-                <a href="./css/images/gallery/sea-city-mountains.jpg" class="gallery-item">
-                <img class="gallery__item item-7" src="./css/images/gallery/sea-city-mountains.jpg">
-                </a> 
-
-                <a href="./css/images/gallery/city-on-mountains.jpg" class="gallery-item">
-                <img class="gallery__item item-8" src="./css/images/gallery/city-on-mountains.jpg">
-                </a> 
-                
-            </div> -->
-
+             
         </section>
 
         <section class="feedbacks">
@@ -686,7 +658,7 @@
             </div>
     </footer>
 
-    
+     --> 
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/components/swiper1.js"></script>

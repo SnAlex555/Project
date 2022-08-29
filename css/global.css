@@ -30,5 +30,6 @@
 	--pages--main-color:var(--gray-4);
 	--pages--main-blocks-color:var(--white);
 
+	--header-menu-z-index: 101
 
 }

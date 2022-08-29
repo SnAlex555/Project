@@ -1,13 +1,15 @@
-.section__links{
+.section__links {
     display: flex;
     flex: 1 1 auto;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 90px;
 }
 
-.main__section-title{
+.main__section-title {
     margin-left: 160px;
     color: var(--section-title-color);
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -15,11 +17,10 @@
     text-decoration: none;
 }
 
-.watch__all{
-    margin-left: 1187px;
+.watch__all {
     margin-right: 160px;
     color: var(--black);
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -27,18 +28,18 @@
     text-decoration: underline;
 }
 
-.slide__type{
-    font-family: 'Montserrat';
+.slide__type {
+    font-family: "Montserrat";
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
     letter-spacing: 0em;
     text-align: left;
     color: var(--slide--type-color);
-}   
+}
 
-.slide__title{
-    font-family: 'Montserrat';
+.slide__title {
+    font-family: "Montserrat";
     font-size: 14px;
     font-weight: 700;
     line-height: 17px;
@@ -50,116 +51,253 @@
 }
 
 .slide__description {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
     letter-spacing: 0em;
-    text-align:left;
+    text-align: left;
     color: var(--slide--description-color);
     margin-top: 20px;
- }
+}
 
-.slide__duration-time{
-    font-family: 'Montserrat';
+.slide__duration-time {
+    font-family: "Montserrat";
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
     letter-spacing: 0em;
     text-align: left;
     color: var(--slide--duration-time-color);
-    
- }
+}
 
-.slide__price{
-    font-family: 'Montserrat';
+.slide__price {
+    font-family: "Montserrat";
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
     letter-spacing: 0em;
     text-align: left;
     color: var(--slide--price-color);
- }
+}
 
-.slide__price-icon{
+.slide__price-icon {
     margin-left: 15px;
- }
+}
 
-.button__link-exursions{
+.button__link-exursions {
     width: 160px;
     height: 40px;
     margin-top: 20px;
     margin-bottom: 42px;
     border-radius: 40px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
     align-items: center;
-    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
-    color:var(--button--link-color);
+    background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+    color: var(--button--link-color);
     border: none;
- }
-
-.button__link-exursions:hover{
-    color: var(--yellow);
-    cursor: pointer
 }
 
- .link__excursuions{
+.button__link-exursions:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+.link__excursuions {
     text-decoration: none;
 }
 
-.link__excursuions:hover{
-    color:var(--yellow);
-    transition: color .3s;
+.link__excursuions:hover {
+    color: var(--yellow);
+    transition: color 0.3s;
 }
 
-.popular-exursion-section__box1{
+.popular__exursions{
+    position: relative;
+}
+
+.popular-exursion-section__box1 {
     width: 360px;
     height: 497px;
-    background: url('../images/slides/road.jpg');
+    background: url("../images/slides/road.jpg");
     color: #fff;
     background-repeat: no-repeat;
 }
-.popular-exursion-section__box2{
+.popular-exursion-section__box2 {
     width: 360px;
     height: 497px;
-    background: url('../images/slides/girl-on-horse.jpg');
+    background: url("../images/slides/girl-on-horse.jpg");
     color: #fff;
     background-repeat: no-repeat;
 }
-.popular-exursion-section__box3{
+.popular-exursion-section__box3 {
     width: 360px;
     height: 497px;
-    background: url('../images/slides/waterfall.jpg');
+    background: url("../images/slides/waterfall.jpg");
     color: #fff;
     background-repeat: no-repeat;
 }
-.popular-exursion-section__box4{
+.popular-exursion-section__box4 {
     width: 360px;
     height: 497px;
-    background: url('../images/slides/road.jpg');
+    background: url("../images/slides/road.jpg");
     color: #fff;
     background-repeat: no-repeat;
 }
-.popular-exursion-section__box5{
+.popular-exursion-section__box5 {
     width: 360px;
     height: 497px;
-    background: url('../images/slides/road.jpg');
+    background: url("../images/slides/road.jpg");
     color: #fff;
     background-repeat: no-repeat;
 }
-.popular-exursion-section__box6{
+.popular-exursion-section__box6 {
     width: 360px;
     height: 497px;
-    background: url('../images/slides/waterfall.jpg');
+    background: url("../images/slides/waterfall.jpg");
     color: #fff;
     background-repeat: no-repeat;
 }
 
-.popular-exursions-section__content{
+.popular-exursions-section__content {
     padding: 211px 16px 42px 16px;
 }
 
+@media screen and (max-width: 765px) {
+    .watch__all {
+        display: none;
+       }
+}
+
+@media screen and (max-width: 768px) {
+    .section__links{
+    display: inline-block;
+}
+   .main__section-title  {
+    margin-left: 70px ;
+   }
+
+   .watch__all {
+    margin-left: 590px;
+    margin-right: 70px ;
+   }
+}
+
+@media screen and (max-width: 825px) {
+    .popular-exursion-section__box1  {
+        width: 295px;
+        height: 490px;
+        background: url("../images/tablet/slides/road-tablet.jpg");
+        color: #fff;
+        background-repeat: no-repeat;
+    }
+
+    .popular-exursion-section__box2 {
+        width: 295px;
+        height: 490px;
+        background: url("../images/tablet/slides/girl-on-horse-tablet.jpg");
+        color: #fff;
+        background-repeat: no-repeat;
+    }
+    .popular-exursion-section__box3 {
+        width: 295px;
+        height: 490px;
+        background: url("../images/tablet/slides/waterfall-tablet.jpg");
+        color: #fff;
+        background-repeat: no-repeat;
+    }
+    .popular-exursion-section__box4 {
+        width: 295px;
+        height: 490px;
+        background: url("../images/tablet/slides/road-tablet.jpg");
+        color: #fff;
+        background-repeat: no-repeat;
+    }
+    .popular-exursion-section__box5 {
+        width: 295px;
+        height: 490px;
+        background: url("../images/tablet/slides/road-tablet.jpg");
+        color: #fff;
+        background-repeat: no-repeat;
+    }
+    .popular-exursion-section__box6 {
+        width: 295px;
+        height: 490px;
+        background: url("../images/tablet/slides/road-tablet.jpg");
+        color: #fff;
+        background-repeat: no-repeat;
+    }
+
+    .popular-exursions-section__content {
+        padding: 191px 15px 31px 15px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .swiper-slide{
+        margin: 0 auto;
+    }
+
+    .popular-exursion-section__box1 {
+        width: 280px;
+        height: 540px;
+        background: url("../images/mobile/slides/road-mobile.jpg");
+        color: #fff;
+        background-repeat: no-repeat;
+    }
+    .popular-exursion-section__box2 {
+        width: 280px;
+        height: 540px;
+        background: url("../images/mobile/slides/girl-on-horse-mobile.jpg");
+        color: #fff;
+        background-repeat: no-repeat;
+    }
+    .popular-exursion-section__box3 {
+        width: 280px;
+        height: 540px;
+        background: url("../images/mobile/slides/waterfall-mobile.jpg");
+        color: #fff;
+        background-repeat: no-repeat;
+    }
+    .popular-exursion-section__box4 {
+        width: 280px;
+        height: 540px;
+        background: url("../images/mobile/slides/road-mobile.jpg");
+        color: #fff;
+        background-repeat: no-repeat;
+    }
+    .popular-exursion-section__box5 {
+        width: 280px;
+        height: 540px;
+        background: url("../images/mobile/slides/road-mobile.jpg");
+        color: #fff;
+        background-repeat: no-repeat;
+    }
+    .popular-exursion-section__box6 {
+        width: 280px;
+        height: 540px;
+        background: url("../images/mobile/slides/road-mobile.jpg");
+        color: #fff;
+        background-repeat: no-repeat;
+    }
+
+    .popular-exursions-section__content {
+        padding: 182px 12px 30px 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .section__links {
+        display: block;
+    }
+
+    .main__section-title {
+        margin-left: 25px ;
+    }
+
+    
+}

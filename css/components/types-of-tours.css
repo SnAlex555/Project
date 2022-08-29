@@ -1,7 +1,8 @@
-.types-of-tours__wrapper{
+/* .types-of-tours__wrapper{
     margin-left: 160px;
     margin-top: 150px;
-    width: 1585px;
+    max-width: 1585px;
+    width: 100%;
 }
 
 .main__section-title{
@@ -77,3 +78,22 @@
     width: 75px;
     height: 74px;
 }
+
+@media screen and (max-width: 768px) {
+    .section__links{
+    display: inline-block;
+}
+   .main__section-title  {
+    margin-left: 70px ;
+   }
+
+   .watch__all {
+    margin-right: 70px ;
+   }
+}
+
+@media screen and (max-width: 320px) {
+.main__section-title {
+    margin-left: 25px ;
+}
+} */

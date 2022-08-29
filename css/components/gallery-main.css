@@ -1,9 +1,10 @@
-.gallery__main{
+/* .gallery__main{
     margin-top: 150px;
 }
 
 .gallery__links{
     display: flex;
+    justify-content: space-between
 }
 
 .main__section-title{
@@ -25,7 +26,6 @@
     line-height: 15px;
     text-decoration-line: underline;
     color: var(--black);
-    margin-left: 1390px;
     margin-right: 160px;
 }
 
@@ -77,3 +77,24 @@
 .item-8 {
     grid-area: item-8;
 }
+
+
+@media screen and (max-width: 768px) {
+    .section__links{
+    display: inline-block;
+}
+   .main__section-title  {
+    margin-left: 70px ;
+   }
+
+   .watch__all {
+    margin-right: 70px ;
+   }
+
+
+@media screen and (max-width: 320px) {
+    .main__section-title {
+        margin-left: 25px ;
+    }
+}
+} */
